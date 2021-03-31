@@ -4,6 +4,16 @@ title: "Posts by Collection"
 permalink: /collections/
 author_profile: true
 ---
+{% for collection in site.collections %}
+{% unless collection.output == false or collection.label == "posts" %}
+  <h2>Items from  <a href="{{ collection.label }}">{{ collection.label }}</a></h2>
+  <ul>
+    {% for item in site[collection.label] %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endunless %}
+{% endfor %}
 
 {% capture written_label %}'None'{% endcapture %}
 

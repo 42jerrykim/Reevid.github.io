@@ -118,9 +118,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
-      toc: true  
-      toc_sticky: true
 
 category_archive:
   type: liquid
@@ -133,4 +130,4 @@ tag_archive:
 collections:
   recipes:
     output: true
-    permalink: /:collection/:path/
+    permalink: /collections/:collection/:path/
