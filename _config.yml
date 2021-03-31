@@ -110,6 +110,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      toc: true  
+      toc_sticky: true
 
 category_archive:
   type: liquid
@@ -118,7 +129,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# Collections
 collections:
-  portfolio:
+  recipes:
     output: true
     permalink: /:collection/:path/
