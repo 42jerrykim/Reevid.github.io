@@ -145,3 +145,9 @@ collections:
     Title: "Cycle"
     output: true
     permalink: /collections/:collection/:path/
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "disqus_cSJVl7DnTO"
+
