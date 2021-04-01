@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Posts by Collection 4"
+title: "Posts by Collection 5"
 permalink: /collections/
 author_profile: true
 ---
@@ -10,7 +10,7 @@ author_profile: true
   <h2>Items from  <a href="{{ collection.label }}">{{ collection.Title }}</a></h2>
   <ul>
     {% for item in collection.docs %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li id="{{ label | slugify }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
   </ul>
   {% endunless %}
