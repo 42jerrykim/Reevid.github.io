@@ -149,5 +149,5 @@ collections:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "disqus_cSJVl7DnTO"
+    shortname: "https-reevid-github-io-blogsoftware"
 
