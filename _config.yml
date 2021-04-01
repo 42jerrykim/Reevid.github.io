@@ -37,6 +37,8 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 breadcrumbs: true  # disabled by default
 
 google_site_verification : "E-IZOpjA4x43YPBULfdhFQ3XQF0sHaCOHtUxo2ODDB4"
+naver_site_verification: "4b02ffa47d254e19822fdb25d0655a823faf52f3"
+
 include:
   - _pages
 
