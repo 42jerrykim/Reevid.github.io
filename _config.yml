@@ -42,7 +42,7 @@ naver_site_verification: "4b02ffa47d254e19822fdb25d0655a823faf52f3"
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-B1DDB02GF2"
+    tracking_id: "G-ESFX2F44J5"
     anonymize_ip: false # default
 
 
