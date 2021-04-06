@@ -66,7 +66,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
+  - jekyll-redirect-from
+  
 author:
   name   : "Jerry Jong-Min Kim"
   avatar : "/assets/images/bio-photo.jpg"
@@ -158,6 +159,18 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+  # _cmd
+  - scope:
+      path: ""
+      type: cmd
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
 
 category_archive:
   type: liquid
@@ -182,6 +195,10 @@ collections:
     permalink: /collections/:collection/:path/
   algorithm:
     Title: "Algorithm"
+    output: true
+    permalink: /collections/:collection/:path/
+  cmd:
+    Title: "CMD"
     output: true
     permalink: /collections/:collection/:path/
 
