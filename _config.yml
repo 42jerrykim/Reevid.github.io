@@ -137,6 +137,18 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+  # _designpattern
+  - scope:
+      path: ""
+      type: designpattern
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
 
 category_archive:
   type: liquid
@@ -153,6 +165,10 @@ collections:
     permalink: /collections/:collection/:path/
   cycle:
     Title: "Cycle"
+    output: true
+    permalink: /collections/:collection/:path/
+  designpattern:
+    Title: "Design Pattern"
     output: true
     permalink: /collections/:collection/:path/
 
