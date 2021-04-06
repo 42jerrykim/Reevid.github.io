@@ -23,7 +23,7 @@ github_username: Reevid
 minimal_mistakes_skin: default
 search: true
 
-repository               : "Reevid/minimal-mistakes"
+repository               : "Reevid/Reevid.github.io"
 
 # Build settings
 markdown: kramdown
