@@ -1,7 +1,7 @@
 ---
 title: Cycle
 layout: collection
-permalink: /cycle/
+permalink: /collections/cycle/
 collection: cycle
 entries_layout: grid
 classes: wide
