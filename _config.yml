@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jerry Jong-Min Kim
-email:
+email: reevid7@gmail.com
 description: 김종민의 개발 블로그입니다.
 github_username: Reevid
 minimal_mistakes_skin: default
@@ -70,7 +70,7 @@ plugins:
 author:
   name   : "Jerry Jong-Min Kim"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "김종민의 개발 블로그입니다. CC BY-SA 3.0"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
