@@ -104,3 +104,6 @@ V : 버전 정보를 보여준다.
 --help : 도움말을 보여준다.
 --info : 디버깅 정보를 보여준다.
 --version : 버전 정보를 보여준다.
+
+# 참고
+[https://en.wikipedia.org/wiki/Ps_(Unix)](https://en.wikipedia.org/wiki/Ps_(Unix))
