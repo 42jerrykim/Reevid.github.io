@@ -10,7 +10,7 @@ author_profile: true
   <h2>Posts of <a href="{{ collection.label }}">{{ collection.Title }}</a></h2>
   <ul>
     {% for item in collection.docs %}
-      <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>&nbsp&nbsp|&nbsp
+      <a href="{{ item.url | relative_url }}" rel="permalink" style="white-space:nowrap; ">{{ item.title }}</a>&nbsp&nbsp|&nbsp
     {% endfor %}
   </ul>
   <!-- </ul> <ul>
