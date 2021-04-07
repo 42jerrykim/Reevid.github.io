@@ -12,7 +12,7 @@ RDP Wrapper는 윈도우 원격을 여러명이서 동시에 사용할 수 있�
 # 문제 상황
 
 Win 10 Pro 20H2에서 not supported가 발생했을때 처리 하는 방법이다.
-
+![Not supported](https://user-images.githubusercontent.com/11385249/112481810-73097380-8d88-11eb-90ae-27adaa456182.png)
 ![Image Alt 텍스트](https://user-images.githubusercontent.com/81416060/112618075-3482c000-8e3f-11eb-874a-9b38e9849e10.png)
 
 # 대응
