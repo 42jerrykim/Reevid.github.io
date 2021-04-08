@@ -45,6 +45,8 @@ $base0d: #81a2be;
 $base0e: #b294bb;
 $base0f: #a3685a;
 
+
+  
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -84,3 +86,43 @@ html {
     font-size: 18px; // change to whatever
   }
 }
+
+.breadcrumbs {
+    @include clearfix;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: $sans-serif;
+    -webkit-animation: $intro-transition;
+    animation: $intro-transition;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  
+    @include breakpoint($x-large) {
+      max-width: $max-width;
+    }
+  
+    ol {
+      padding: 0;
+      list-style: none;
+      font-size: $type-size-6;
+  
+      @include breakpoint($large) {
+        float: right;
+        width: calc(100% - #{$right-sidebar-width-narrow});
+      }
+  
+      @include breakpoint($x-large) {
+        width: calc(100% - #{$right-sidebar-width});
+      }
+    }
+  
+    li {
+      display: inline;
+    }
+  
+    .current {
+      font-weight: bold;
+    }
+  }
