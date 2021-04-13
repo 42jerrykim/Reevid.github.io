@@ -203,7 +203,7 @@ collections:
     permalink: /collections/:collection/:path/
 
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "https-reevid-github-io-blogsoftware"
-
+  provider: "utterances"
+  utterances:
+    theme                : github-light
+    issue_term           : pathname
