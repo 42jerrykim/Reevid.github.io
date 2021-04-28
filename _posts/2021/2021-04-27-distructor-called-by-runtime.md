@@ -7,10 +7,8 @@ tags:
   - Distructor
   - Class
   - GC
-  _ Memory
+  - Memory
 ---
-
-
 
 ```csharp
 using System;
