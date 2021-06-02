@@ -159,6 +159,18 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+  # _testing
+  - scope:
+      path: ""
+      type: testing
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
   # _cmd
   - scope:
       path: ""
@@ -183,6 +195,10 @@ tag_archive:
 collections:
   bashshell:
     Title: "Bash Shell"
+    output: true
+    permalink: /collections/:collection/:path/
+  testing:
+    Title: "Testing"
     output: true
     permalink: /collections/:collection/:path/
   cycle:
