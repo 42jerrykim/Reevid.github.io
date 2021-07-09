@@ -10,8 +10,6 @@ tags:
   - bash
 ---
 
-# 개요
-
 bash shell script 에서 file path 에서 확장자나 Path 를 제거하고 파일명만 뽑아내는 방법(bash shell 에서만 동작함)
 
 # Path 제거하고 file 명만 추출
