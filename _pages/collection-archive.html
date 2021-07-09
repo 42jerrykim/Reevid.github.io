@@ -6,21 +6,30 @@ author_profile: true
 ---
 
 {% for collection in site.collections %}
-{% unless collection.output == false %}
-  {% if collection.label == "posts" %}
-    <h2><a href="/posts">Posts not in the collection</a></h2>
-  {% else %}
-    <h2>Posts of <a href="{{ collection.label }}">{{ collection.Title }}</a></h2>
-  {% endif %}
-  <ul>
-    {% for item in collection.docs %}
-      <a href="{{ item.url | relative_url }}" rel="permalink" style="white-space:nowrap; ">{{ item.title }}</a>&nbsp&nbsp|&nbsp
-    {% endfor %}
-  </ul>
+  {% unless collection.output == false %}
+    {% if collection.label != "posts" %}
+      <h2>Posts of <a href="{{ collection.label }}">{{ collection.Title }}</a></h2>
+      <ul>
+        {% for item in collection.docs %}
+        <a href="{{ item.url | relative_url }}" rel="permalink" style="white-space:nowrap; ">{{ item.title }}</a>&nbsp&nbsp|&nbsp
+          {% endfor %}
+      </ul>
+    {% endif %}
   {% endunless %}
 {% endfor %}
 
-{% capture written_label %}'None'{% endcapture %}
+{% for collection in site.collections %}
+  {% unless collection.output == false %}
+    {% if collection.label == "posts" %}
+      <h2><a href="/posts">Posts not in the collection</a></h2>
+      <ul>
+        {% for item in collection.docs %}
+        <a href="{{ item.url | relative_url }}" rel="permalink" style="white-space:nowrap; ">{{ item.title }}</a>&nbsp&nbsp|&nbsp
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
 
 {% for collection in site.collections %}
   {% unless collection.output == false or collection.label == "posts" %}
