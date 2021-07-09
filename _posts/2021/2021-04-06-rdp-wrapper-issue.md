@@ -33,25 +33,28 @@ RDP Wrapper를 설치 하였으나 붉은색으로 [not supported]가 표시되�
 
 > "%ProgramFiles%\RDP Wrapper" 경로만 사용해라 (보통 C:\Program Files\RDP Wrapper을 사용한다.)
 
-## 2. 설치 및 자동 실행 등록
+## 2. 다운로드한 파일 설치
 [autoupdate.zip](https://github.com/asmtron/rdpwrap/raw/master/autoupdate.zip) 파일을 받아서 "%ProgramFiles%\RDP Wrapper" 경로에 압축을 푼다.
 
+## 3. 부팅시 자동 실행 설정
 부팅시 autoupdate.bat의 자동실행을 활성화 하기 위해서, 아래의 파일을 관리자 권한으로 실행시킨다.
 
 ```
 "%ProgramFiles%\RDP Wrapper\helper\autoupdate__enable_autorun_on_startup.bat"
 ```
 
-## 3. Windows Defender 설정
+## 4. Windows Defender 설정
 
 바이러스 백신 또는 Windows Defender의 설정에서 "% ProgramFiles % \ RDP Wrapper"폴더의 제외를 설정하여 RDP 래퍼 파일의 삭제를 방지한다.(적용하지 않아도 동작에 문제 없는것 같음)
 
-## 4. 실행
+## 5. 실행
 이제 autoupdate.bat 파일을 사용하여 RDP 래퍼를 설치하고 업데이트 할 수 있도록 설정이 완료되었다. 관리자 권한으로 autoupdate.bat을 실행시킨다..
 
 ```
 "%ProgramFiles%\RDP Wrapper\autoupdate.bat"
 ```
+
+[not supported]가 [supported]로 바뀐것을 확인한다. 추가적으로 재부팅을 해주면 좀 더 안정적으로 동작하는것 같았다.
 
 # 참고
 원문 링크 : [INSTALL of RDP Wrapper and Autoupdater](https://github.com/asmtron/rdpwrap/blob/77e846f8bace8ac4f91ed0c2332aa1604beef5f6/binary-download.md)
