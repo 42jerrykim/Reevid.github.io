@@ -8,13 +8,13 @@ tags:
   - ls
   - date
   - order
-  - file,
+  - file
   - linux
   - bash
 ---
 
 
-# Method 1: From old files
+# Method 1: 오래된 파일 부터 보이기
 This is useful if you want to check and erase old files.
 Check the old files by putting the -r option on top.
 
@@ -31,7 +31,7 @@ ls --time-style="+%Y-%m-%d %H:%M:%S" -altr | grep ^- | more
 -r--------  1 root root 6291634 2012-12-05 09:39:43 audit.log.4
 ```
 
-# Method 2: Starting with the latest file
+# Method 2: 최신 파일 부터 보이기
 This is useful when checking whether the latest log file has been created.
 
 ``` bash
