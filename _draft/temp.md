@@ -3,3 +3,4 @@
 * http://stiner01.blogspot.com/2012/07/cs0051.html
 * https://stackoverflow.com/questions/1088290/define-statements-within-a-namespace
 * https://gunnarpeipman.com/cost-of-exceptions/?utm_source=csharpdigest&utm_medium=email&utm_campaign=370
+* https://refactoring.guru/design-patterns/strategy/cpp/example
