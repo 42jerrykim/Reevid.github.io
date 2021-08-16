@@ -147,6 +147,18 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+  # _cleanarchitecture
+  - scope:
+      path: ""
+      type: cleanarchitecture
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
   # _algorithm
   - scope:
       path: ""
@@ -217,7 +229,10 @@ collections:
     Title: "CMD"
     output: true
     permalink: /collections/:collection/:path/
-
+  cleanarchitecture:
+    Title: "Clean Architecture"
+    output: true
+    permalink: /collections/:collection/:path/
 comments:
   provider: "utterances"
   utterances:
