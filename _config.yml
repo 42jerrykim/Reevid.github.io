@@ -111,90 +111,90 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _bashshell
-  - scope:
-      path: ""
-      type: bashshell
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      toc: true  
-      toc_sticky: true
-      toc_icon: "align-left"
-      comments: true
-  # _cycle
-  - scope:
-      path: ""
-      type: cycle
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      toc: true  
-      toc_sticky: true
-      toc_icon: "align-left"
-      comments: true
-  # _designpattern
-  - scope:
-      path: ""
-      type: designpattern
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      toc: true  
-      toc_sticky: true
-      toc_icon: "align-left"
-      comments: true
-  # _cleanarchitecture
-  - scope:
-      path: ""
-      type: cleanarchitecture
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      toc: true  
-      toc_sticky: true
-      toc_icon: "align-left"
-      comments: true
-  # _algorithm
-  - scope:
-      path: ""
-      type: algorithm
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      toc: true  
-      toc_sticky: true
-      toc_icon: "align-left"
-      comments: true
-  # _testing
-  - scope:
-      path: ""
-      type: testing
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      toc: true  
-      toc_sticky: true
-      toc_icon: "align-left"
-      comments: true
-  # _cmd
-  - scope:
-      path: ""
-      type: cmd
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      toc: true  
-      toc_sticky: true
-      toc_icon: "align-left"
-      comments: true
+  # # _bashshell
+  # - scope:
+  #     path: ""
+  #     type: bashshell
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     toc: true  
+  #     toc_sticky: true
+  #     toc_icon: "align-left"
+  #     comments: true
+  # # _cycle
+  # - scope:
+  #     path: ""
+  #     type: cycle
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     toc: true  
+  #     toc_sticky: true
+  #     toc_icon: "align-left"
+  #     comments: true
+  # # _designpattern
+  # - scope:
+  #     path: ""
+  #     type: designpattern
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     toc: true  
+  #     toc_sticky: true
+  #     toc_icon: "align-left"
+  #     comments: true
+  # # _cleanarchitecture
+  # - scope:
+  #     path: ""
+  #     type: cleanarchitecture
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     toc: true  
+  #     toc_sticky: true
+  #     toc_icon: "align-left"
+  #     comments: true
+  # # _algorithm
+  # - scope:
+  #     path: ""
+  #     type: algorithm
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     toc: true  
+  #     toc_sticky: true
+  #     toc_icon: "align-left"
+  #     comments: true
+  # # _testing
+  # - scope:
+  #     path: ""
+  #     type: testing
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     toc: true  
+  #     toc_sticky: true
+  #     toc_icon: "align-left"
+  #     comments: true
+  # # _cmd
+  # - scope:
+  #     path: ""
+  #     type: cmd
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     toc: true  
+  #     toc_sticky: true
+  #     toc_icon: "align-left"
+  #     comments: true
 
 category_archive:
   type: liquid
@@ -204,35 +204,35 @@ tag_archive:
   path: /tags/
 
 # Collections
-collections:
-  bashshell:
-    Title: "Bash Shell"
-    output: true
-    permalink: /collections/:collection/:path/
-  testing:
-    Title: "Testing"
-    output: true
-    permalink: /collections/:collection/:path/
-  cycle:
-    Title: "Cycle"
-    output: true
-    permalink: /collections/:collection/:path/
-  designpattern:
-    Title: "Design Pattern"
-    output: true
-    permalink: /collections/:collection/:path/
-  algorithm:
-    Title: "Algorithm"
-    output: true
-    permalink: /collections/:collection/:path/
-  cmd:
-    Title: "CMD"
-    output: true
-    permalink: /collections/:collection/:path/
-  cleanarchitecture:
-    Title: "Clean Architecture"
-    output: true
-    permalink: /collections/:collection/:path/
+# collections:
+#   bashshell:
+#     Title: "Bash Shell"
+#     output: true
+#     permalink: /collections/:collection/:path/
+#   testing:
+#     Title: "Testing"
+#     output: true
+#     permalink: /collections/:collection/:path/
+#   cycle:
+#     Title: "Cycle"
+#     output: true
+#     permalink: /collections/:collection/:path/
+#   designpattern:
+#     Title: "Design Pattern"
+#     output: true
+#     permalink: /collections/:collection/:path/
+#   algorithm:
+#     Title: "Algorithm"
+#     output: true
+#     permalink: /collections/:collection/:path/
+#   cmd:
+#     Title: "CMD"
+#     output: true
+#     permalink: /collections/:collection/:path/
+#   cleanarchitecture:
+#     Title: "Clean Architecture"
+#     output: true
+#     permalink: /collections/:collection/:path/
 comments:
   provider: "utterances"
   utterances:
