@@ -59,7 +59,7 @@ Push가 되면 Github Action이 동작하는 것을 확인 할 수 있다.
 
 PlantUML에서 링크를 이용한 방법이다.
 
-[PlantUML 온라인](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)를 들어가 보면 UML을 실시간으로 확인 할 수 있다. 이미 생성되어 있는 링크도 decode를 통해 텍스트 편집이 가능하다는 장점을 가지고 있다.
+[PlantUML 온라인](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)에 들어가 보면 UML을 실시간으로 확인하고 편집 할 수 있다. 이미 생성되어 있는 링크도 `DecodeURL`를 통해 편집이 가능하다는 장점을 가지고 있다.
 
 ### 적용 방법
 
