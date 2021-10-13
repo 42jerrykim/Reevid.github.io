@@ -67,8 +67,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-redirect-from
-  - jekyll-asciidoc
-  - asciidoctor-diagram
   
 author:
   name   : "Jerry Jong-Min Kim"
