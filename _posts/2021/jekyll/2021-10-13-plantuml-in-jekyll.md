@@ -19,7 +19,7 @@ tags:
 
 ## GitHub Action을 사용하는 방법
 
-[https://github.com/marketplace?query=plantuml](https://github.com/marketplace?query=plantuml) 에서 적용가능한 Action을 확인 할 수 있다. 가장 별점이 높은 [https://github.com/marketplace/actions/generate-plantuml](https://github.com/marketplace/actions/generate-plantuml)을 사용해 보았다.
+[https://github.com/marketplace?query=plantuml](https://github.com/marketplace?query=plantuml) 에서 적용가능한 Action을 확인 할 수 있다. 가장 별점이 높은 [Generate Plantuml](https://github.com/marketplace/actions/generate-plantuml)을 사용해 보았다.
 
 ### 적용시 주의점
 
