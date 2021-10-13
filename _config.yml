@@ -67,6 +67,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll-plantuml
   
 author:
   name   : "Jerry Jong-Min Kim"
