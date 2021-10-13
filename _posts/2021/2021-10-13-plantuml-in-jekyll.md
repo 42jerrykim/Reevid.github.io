@@ -9,6 +9,8 @@ tags:
   - diagram
 ---
 
+Jekyll에서 Plantuml 사용하기
+
 {% plantuml %}
 [First] - [Second]
 {% endplantuml %}
