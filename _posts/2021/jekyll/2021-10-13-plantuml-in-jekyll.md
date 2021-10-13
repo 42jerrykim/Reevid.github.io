@@ -17,13 +17,40 @@ tags:
 
 # Jekyll에서 Plantuml 사용하기
 
-## GitHub Pages에서 랜더링 (안됨)
+## GitHub Action을 사용하는 방법
 
-md 파일에서 텍스트로 작성되어 있는 UML 내용을 GitHub Page에서 랜더링해서 보여주는 방법을 찾아보고 있지만 별 방법이 없는것 같다.
+https://github.com/marketplace?query=plantuml 에서 적용가능한 Action을 확인 할 수 있다. 가장 별점이 높은 https://github.com/marketplace/actions/generate-plantuml을 사용해 보았다.
+
+### 적용시 주의점
+
+해당 페이지에 있는 내용을 따라하면서 살짝 어려웠던 부분은 sample에는 md 파일에서 바로 svg를 생성해 주는 느낌이였지만 별도의 PlantUML 파일을 만들어서 작업해야 해야 동작하는것을 확인 할 수 있었다.
+
+md-sample-sequence.plantuml 파일을 생성하고 아래의 코드로 내용을 채운다.
+```plantuml:md-sample-sequence
+@startuml
+actor Foo1
+boundary Foo2
+control Foo3
+entity Foo4
+database Foo5
+collections Foo6
+Foo1 -> Foo2 : To boundary
+Foo1 -> Foo3 : To control
+Foo1 -> Foo4 : To entity
+Foo1 -> Foo5 : To database
+Foo1 -> Foo6 : To collections
+@enduml
+```
+
+Push가 되면 Github Action이 동작하는 것을 확인 할 수 있다.
+![](/assets/images/120211.png)
+
+파일이 생성되어 추가된것을 확인할 수 있다.
+![](/assets/images/115850.png)
+
+![](/plantuml/md-sample-sequence.svg)
 
 ## 이미지 링크를 삽입하는 방법
-
-### 서론
 
 PlantUML에서 링크를 이용한 방법이다.
 
@@ -45,26 +72,7 @@ UML을 실시간으로 확인 할 수 있다.
 
 ![PlantUML model](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9noxea9gN0jG10000)
 
-## 추가
-
-```plantuml:md-sample-sequence
-@startuml
-actor Foo1
-boundary Foo2
-control Foo3
-entity Foo4
-database Foo5
-collections Foo6
-Foo1 -> Foo2 : To boundary
-Foo1 -> Foo3 : To control
-Foo1 -> Foo4 : To entity
-Foo1 -> Foo5 : To database
-Foo1 -> Foo6 : To collections
-@enduml
-```
-
-![](/plantuml/md-sample-sequence.svg)
 
 # 결론
 
-Github Page에서 랜더링을 통해 보여줄 수 있으면 PlantUML 서버에 문제가 발생한 경우에도 UML을 그려줄 수 있을것이라고 생각한다. PlantUML도 사기업에서 만든 툴이기 때문에 언제 사라질지 예상할 수 없다. 그래서 UML을 텍스트로 표시하는 보편적인 방법이 있는지 확인해 볼 필요가 있다.
+Action을 사용하는것이 나중에 유지보수를 하는 면에 있어서도 더 편할 수 있을것 같다.
