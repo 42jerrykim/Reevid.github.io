@@ -52,6 +52,7 @@ Push가 되면 Github Action이 동작하는 것을 확인 할 수 있다.
 
 
 다음과 같이 생성된 UML을 사용 할 수 있다.
+
 ![](/plantuml/md-sample-sequence.svg)
 
 ## 이미지 링크를 삽입하는 방법
