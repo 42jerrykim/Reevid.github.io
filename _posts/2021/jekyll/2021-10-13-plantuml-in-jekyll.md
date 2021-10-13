@@ -45,6 +45,26 @@ UML을 실시간으로 확인 할 수 있다.
 
 ![PlantUML model](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9noxea9gN0jG10000)
 
+## 추가
+
+```plantuml:md-sample-sequence
+@startuml
+actor Foo1
+boundary Foo2
+control Foo3
+entity Foo4
+database Foo5
+collections Foo6
+Foo1 -> Foo2 : To boundary
+Foo1 -> Foo3 : To control
+Foo1 -> Foo4 : To entity
+Foo1 -> Foo5 : To database
+Foo1 -> Foo6 : To collections
+@enduml
+```
+
+![](./md-sample-sequence.svg)
+
 # 결론
 
 Github Page에서 랜더링을 통해 보여줄 수 있으면 PlantUML 서버에 문제가 발생한 경우에도 UML을 그려줄 수 있을것이라고 생각한다. PlantUML도 사기업에서 만든 툴이기 때문에 언제 사라질지 예상할 수 없다. 그래서 UML을 텍스트로 표시하는 보편적인 방법이 있는지 확인해 볼 필요가 있다.
