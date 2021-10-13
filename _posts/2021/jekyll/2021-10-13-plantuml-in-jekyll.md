@@ -63,7 +63,7 @@ Foo1 -> Foo6 : To collections
 @enduml
 ```
 
-![](./plantuml/md-sample-sequence.svg)
+![](/plantuml/md-sample-sequence.svg)
 
 # 결론
 
