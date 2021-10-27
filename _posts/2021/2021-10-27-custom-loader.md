@@ -32,7 +32,7 @@ tags:
 
 [.NET Core에서 어셈블리 언로드 기능을 사용하고 디버그하는 방법](https://docs.microsoft.com/ko-kr/dotnet/standard/assembly/unloadability)을 참고해서 Custom으로 어셈블리 로더를 작성 할 수 있다.
 
-```CSharp
+``` CSharp
 using System.Reflection;
 using System.Runtime.Loader;
 
@@ -73,7 +73,7 @@ namespace complex
 
 아래의 코드는 아이디어를 구현한 코드이다.
 
-```CSharp
+``` CSharp
 using System.Reflection;
 using System.Runtime.Loader;
 
