@@ -26,7 +26,7 @@ tags:
 해당 페이지에 있는 내용을 따라하면서 살짝 어려웠던 부분은 sample에는 md 파일에서 바로 svg를 생성해 주는 느낌이였지만 별도의 PlantUML 파일을 만들어서 작업해야 해야 동작하는것을 확인 할 수 있었다.
 
 md-sample-sequence.plantuml 파일을 생성하고 아래의 코드로 내용을 채운다.
-```plantuml:md-sample-sequence
+```
 @startuml
 actor Foo1
 boundary Foo2
