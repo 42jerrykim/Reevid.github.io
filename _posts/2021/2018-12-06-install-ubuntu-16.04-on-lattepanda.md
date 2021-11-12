@@ -7,7 +7,7 @@ redirect_from:
   - /2018/12/06/
 ---
 
-
+라테판다에 이미지 설치 하는 방법
 
 # Get Ubuntu 16.04 LTS
 Get a Ubuntu ISO from: http://releases.ubuntu.com/xenial/ -amd64.iso

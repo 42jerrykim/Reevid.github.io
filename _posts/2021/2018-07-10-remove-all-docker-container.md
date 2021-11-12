@@ -5,7 +5,7 @@ categories: [Docker]
 tags: [Docker, Container, Delete, Stop]
 ---
 
-
+도커에서 컨테이너를 사용하는 방법에 대해서 알아 본다.
 
 # 1. Remove a container
 To delete a container, you first need to know the ID of the container. The ID of the container can be obtained through ```docker ps -a```
