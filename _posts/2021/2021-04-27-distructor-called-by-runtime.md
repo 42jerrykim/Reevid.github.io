@@ -79,4 +79,4 @@ Create
 
 # 결론
 
-![종료자를 사용하여 리소스 해제](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/finalizers#using-finalizers-to-release-resources)하는 방법은 개체를 종료할 수 있으면 가비지 수집기에서 개체의 Finalize 메서드를 실행하므로 런타임의 상황이나 구현에 따라서 달라질수 있다. 비록 함수의 이름은 GC.WaitForPendingFinalizers()이지만 이름과는 다르게 동작할 수 있다는 것을 주의 해야한다. 함수의 자원을 관리하는 더 적합한 방법은 ![IDisposable](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/finalizers#explicit-release-of-resources)을 사용하는 방법이다.
+[종료자를 사용하여 리소스 해제](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/finalizers#using-finalizers-to-release-resources)하는 방법은 개체를 종료할 수 있으면 가비지 수집기에서 개체의 Finalize 메서드를 실행하므로 런타임의 상황이나 구현에 따라서 달라질수 있다. 비록 함수의 이름은 GC.WaitForPendingFinalizers()이지만 이름과는 다르게 동작할 수 있다는 것을 주의 해야한다. 함수의 자원을 관리하는 더 적합한 방법은 [IDisposable](https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/classes-and-structs/finalizers#explicit-release-of-resources)을 사용하는 방법이다.
