@@ -147,18 +147,18 @@ defaults:
   #     toc_sticky: true
   #     toc_icon: "align-left"
   #     comments: true
-  # # _cleanarchitecture
-  # - scope:
-  #     path: ""
-  #     type: cleanarchitecture
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     toc: true  
-  #     toc_sticky: true
-  #     toc_icon: "align-left"
-  #     comments: true
+  # _cleanarchitecture
+  - scope:
+      path: ""
+      type: cleanarchitecture
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
   # # _algorithm
   # - scope:
   #     path: ""
@@ -171,18 +171,18 @@ defaults:
   #     toc_sticky: true
   #     toc_icon: "align-left"
   #     comments: true
-  # # _testing
-  # - scope:
-  #     path: ""
-  #     type: testing
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     toc: true  
-  #     toc_sticky: true
-  #     toc_icon: "align-left"
-  #     comments: true
+  # _testing
+  - scope:
+      path: ""
+      type: testing
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
   # # _cmd
   # - scope:
   #     path: ""
@@ -204,15 +204,15 @@ tag_archive:
   path: /tags/
 
 # Collections
-# collections:
+collections:
 #   bashshell:
 #     Title: "Bash Shell"
 #     output: true
 #     permalink: /collections/:collection/:path/
-#   testing:
-#     Title: "Testing"
-#     output: true
-#     permalink: /collections/:collection/:path/
+  testing:
+    Title: "Testing"
+    output: true
+    permalink: /collections/:collection/:path/
 #   cycle:
 #     Title: "Cycle"
 #     output: true
@@ -229,10 +229,10 @@ tag_archive:
 #     Title: "CMD"
 #     output: true
 #     permalink: /collections/:collection/:path/
-#   cleanarchitecture:
-#     Title: "Clean Architecture"
-#     output: true
-#     permalink: /collections/:collection/:path/
+  cleanarchitecture:
+    Title: "Clean Architecture"
+    output: true
+    permalink: /collections/:collection/:path/
 comments:
   provider: "utterances"
   utterances:
