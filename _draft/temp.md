@@ -5,7 +5,7 @@
 * https://gunnarpeipman.com/cost-of-exceptions/?utm_source=csharpdigest&utm_medium=email&utm_campaign=370
 * https://refactoring.guru/design-patterns/strategy/cpp/example
 * https://modoocode.com/
-
+* https://docs.microsoft.com/ko-kr/dotnet/standard/design-guidelines/choosing-between-class-and-struct
 # 파일에서 문자열 검색
 grep -r 검색할_문자열 파일이름
 
