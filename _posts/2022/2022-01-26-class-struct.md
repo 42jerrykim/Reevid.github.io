@@ -1,13 +1,13 @@
 ---
-title: [C#] 클래스와 구조체 간의 선택
+title: "[C#] 클래스와 구조체 간의 선택"
 category:
- - C#
+  - C#
 tag:
- - C#
- - .NET
- - Class
- - Struct
- - GarvageCollection
+  - C#
+  - .NET
+  - Class
+  - Struct
+  - GarvageCollection
 ---
 
 모든 개발자에 있어서 코드에 대한 기본적인 결정 사항 중 하나는 클래스(참조 형식)을 사용해서 표현할 것인지 아니면 구조체(값 형식)을 사용해서 표현할 것인지를 결정하는 것이다. 클래스 및 구조테의 동작의 차이점을 이해하는 것은 이를 선택하는데 매우 중요하다.
