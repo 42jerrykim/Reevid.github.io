@@ -1,13 +1,14 @@
 ---
-title: "[.NET] Runtime에 따른 Finalizer 호출 차이"
+title: "[C#] Runtime에 따른 Finalizer 호출 차이"
 categories:
-  - .NET
+  - DotNET
 tags:
   - C#
   - Distructor
   - Class
   - GC
   - Memory
+  - DotNET
 ---
 
 대부분의 개발자는 자기의 경험이나 생각에 따라서 코드를 작성 하는 경우가 많다. 하나의 예시로는 C++개발에 익숙한 개발자들이 C#으로 개발을 시작할때 Class Finalizer에서 자원을 관리 하는 경우이다.

@@ -1,9 +1,9 @@
 ---
-title: "[.NET] 왜 리플렉션은 느린가?"
+title: "[C#] 왜 리플렉션은 느린가?"
 categories: 
-    - .NET
+    - DotNET
 tags: 
-    - .NET
+    - DotNET
     - C#
     - Reflection
     - 리플렉션
