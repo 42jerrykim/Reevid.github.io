@@ -13,7 +13,7 @@ std::string::find를 사용하여 문자열에서 특정 문자열이 있는지 
 
 # 함수 원형
 
-```
+```cpp
 size_t find (const string& str, size_t pos = 0) const;
 size_t find (const char* s, size_t pos = 0) const;
 size_t find (const char* s, size_t pos, size_t n) const;
