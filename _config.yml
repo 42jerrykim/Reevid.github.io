@@ -17,7 +17,7 @@ title: Jerry Jong-Min Kim
 email: reevid7@gmail.com
 description: 김종민의 개발 블로그입니다.
 github_username: Reevid
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 repository               : "Reevid/Reevid.github.io"
@@ -25,6 +25,7 @@ repository               : "Reevid/Reevid.github.io"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
