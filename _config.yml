@@ -43,6 +43,7 @@ analytics:
     tracking_id: "G-ESFX2F44J5"
     anonymize_ip: false # default
 
+# teaser: /assets/images/bio-photo.jpg
 
 include:
   - _pages
@@ -105,6 +106,7 @@ defaults:
       toc: true  
       toc_sticky: true
       toc_icon: "align-left"
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
