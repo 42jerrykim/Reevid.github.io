@@ -1,5 +1,5 @@
 ---
-title: "[Markdown] 이미지에 캡션 추가하기"
+title: "[Jekyll] 이미지에 캡션 추가하기"
 cagegory: Jekyll
 tag:
  - image
