@@ -7,9 +7,9 @@ tags:
   - 개발자
 ---
 
-SW 개발자가 가슴에 품고 있어야 하는 기본적인 마음가진에 대해서 다루어 본다.
+SW 개발자가 가슴에 품고 있어야 하는 기본적인 마음가짐에 대해서 다루어 본다.
 
-# SW란 무었인가?
+# SW란 무엇인가?
 
 ## SW와 소설
 
@@ -17,7 +17,7 @@ SW 개발자가 가슴에 품고 있어야 하는 기본적인 마음가진에 �
 |---|---|
 |문법 배우기|언어 배우기|
 |예제 작성|간단한 글짓기(메모, 일기, ...)|
-|프로그램 작성|소설 책 쓰기|
+|프로그램 작성|소설책 쓰기|
 
 ## 좋은 SW(소설)이 되기 위해서는 어떤 점이 필요한가?
 
@@ -25,7 +25,7 @@ SW 개발자가 가슴에 품고 있어야 하는 기본적인 마음가진에 �
 
 ![애플원](https://cdn.mos.cms.futurecdn.net/Zbh5c8wgNSgvLEyUtB5NVQ-1200-80.png){: .align-center}
 
-스티브 워즈니악이 IBM에서 일할 때 개인용으로 사용할 컴퓨터를 스티브 잡스가 제품으로 탈바꿈 시킴
+스티브 워즈니악이 IBM에서 일할 때 개인용으로 사용할 컴퓨터를 스티브 잡스가 제품으로 탈바꿈시킴
 
 ![제품으로 바뀐 모습](https://ichef.bbci.co.uk/news/976/cpsprodpb/5D65/production/_121490932_apple_02.jpg){: .align-center}
 
@@ -45,7 +45,7 @@ SW 개발자가 가슴에 품고 있어야 하는 기본적인 마음가진에 �
 
 ![아이폰](https://img.huffingtonpost.com/asset/5d707ca53b0000e000ce7fd6.jpeg?ops=1200_630){: .align-center}
 
-# 차이점은 무었일까요?
+# 차이점은 무엇일까요?
 
 ## 빈 제목
 
@@ -74,7 +74,9 @@ SW 개발자가 가슴에 품고 있어야 하는 기본적인 마음가진에 �
 
 ### 다양한 회사
 
-![코카콜라](https://mblogthumb-phinf.pstatic.net/20150322_86/i4space_1426986558254SBAJ0_JPEG/20150322_093653.jpg?type=w2){: .align-center}
+|![코카콜라](https://mblogthumb-phinf.pstatic.net/20150322_86/i4space_1426986558254SBAJ0_JPEG/20150322_093653.jpg?type=w2)|
+|:--:|
+|코카콜라의 다양한 브렌드|
 
 ![메타](https://s.yimg.com/uu/api/res/1.2/4YLDqxhDqwSRvpYftT43UA--~B/Zmk9ZmlsbDtoPTQzMDt3PTY3NTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-11/031e5fd0-4189-11ec-bbbd-6725d3f4bdef.cf.jpg){: .align-center}
 
