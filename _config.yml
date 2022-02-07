@@ -120,18 +120,18 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # # _bashshell
-  # - scope:
-  #     path: ""
-  #     type: bashshell
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     toc: true  
-  #     toc_sticky: true
-  #     toc_icon: "align-left"
-  #     comments: true
+  # _bashshell
+  - scope:
+      path: ""
+      type: bashshell
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
   # # _cycle
   # - scope:
   #     path: ""
@@ -214,10 +214,10 @@ tag_archive:
 
 # Collections
 collections:
-#   bashshell:
-#     Title: "Bash Shell"
-#     output: true
-#     permalink: /collections/:collection/:path/
+  bashshell:
+    Title: "Bash Shell"
+    output: true
+    permalink: /collections/:collection/:path/
   testing:
     Title: "Testing"
     output: true
