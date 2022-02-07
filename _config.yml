@@ -241,5 +241,5 @@ collections:
 comments:
   provider: "utterances"
   utterances:
-    theme                : dark-blue
+    theme                : preferred-color-scheme
     issue_term           : pathname
