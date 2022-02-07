@@ -5,6 +5,7 @@
 @charset "utf-8";
 
 $max-width: 100%;
+$background-color: #14171c;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -64,3 +65,4 @@ table {
 img {
     width: 100%;
 }
+
