@@ -22,6 +22,8 @@ search: true
 
 repository               : "Reevid/Reevid.github.io"
 
+logo: https://raw.githubusercontent.com/Reevid/Reevid.github.io/master/favicon.ico
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -140,18 +142,18 @@ defaults:
   #     toc_sticky: true
   #     toc_icon: "align-left"
   #     comments: true
-  # # _designpattern
-  # - scope:
-  #     path: ""
-  #     type: designpattern
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     toc: true  
-  #     toc_sticky: true
-  #     toc_icon: "align-left"
-  #     comments: true
+  # _designpattern
+  - scope:
+      path: ""
+      type: designpattern
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
   # _cleanarchitecture
   - scope:
       path: ""
@@ -164,18 +166,18 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
-  # # _algorithm
-  # - scope:
-  #     path: ""
-  #     type: algorithm
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     toc: true  
-  #     toc_sticky: true
-  #     toc_icon: "align-left"
-  #     comments: true
+  # _algorithm
+  - scope:
+      path: ""
+      type: algorithm
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
   # _testing
   - scope:
       path: ""
@@ -188,18 +190,18 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
-  # # _cmd
-  # - scope:
-  #     path: ""
-  #     type: cmd
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     toc: true  
-  #     toc_sticky: true
-  #     toc_icon: "align-left"
-  #     comments: true
+  # _cmd
+  - scope:
+      path: ""
+      type: cmd
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
 
 category_archive:
   type: liquid
@@ -222,22 +224,23 @@ collections:
 #     Title: "Cycle"
 #     output: true
 #     permalink: /collections/:collection/:path/
-#   designpattern:
-#     Title: "Design Pattern"
-#     output: true
-#     permalink: /collections/:collection/:path/
-#   algorithm:
-#     Title: "Algorithm"
-#     output: true
-#     permalink: /collections/:collection/:path/
-#   cmd:
-#     Title: "CMD"
-#     output: true
-#     permalink: /collections/:collection/:path/
+  designpattern:
+    Title: "Design Pattern"
+    output: true
+    permalink: /collections/:collection/:path/
+  algorithm:
+    Title: "Algorithm"
+    output: true
+    permalink: /collections/:collection/:path/
+  cmd:
+    Title: "CMD"
+    output: true
+    permalink: /collections/:collection/:path/
   cleanarchitecture:
     Title: "Clean Architecture"
     output: true
     permalink: /collections/:collection/:path/
+
 comments:
   provider: "utterances"
   utterances:
