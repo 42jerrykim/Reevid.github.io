@@ -241,5 +241,5 @@ collections:
 comments:
   provider: "utterances"
   utterances:
-    theme                : github-dark
+    theme                : photon-dark
     issue_term           : pathname
