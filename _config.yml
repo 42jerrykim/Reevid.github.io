@@ -36,7 +36,9 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 breadcrumbs: true  # disabled by default
 
-search_full_content: true
+# search_full_content: true
+google:
+  search_engine_id: a881cb1a9fa9b3278
 
 google_site_verification : "E-IZOpjA4x43YPBULfdhFQ3XQF0sHaCOHtUxo2ODDB4"
 naver_site_verification: "4b02ffa47d254e19822fdb25d0655a823faf52f3"
