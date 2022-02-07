@@ -1,6 +1,6 @@
 ---
 title: "[Minimal Mistakes] Minimal Mistakes 페이지 넓게 보기"
-category: Minimal Mistakes
+category: [Minimal Mistakes, Jekyll]
 tag:
  - Jekyll
  - Minimal Mistakes

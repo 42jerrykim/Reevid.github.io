@@ -1,7 +1,7 @@
 ---
 title: "[C#] Plugin 구조를 위한 Custom AssemblyLoadContext 만들기"
 categories:
-  - DotNET
+  - .NET
 tags:
   - Reflection
   - Plugin
