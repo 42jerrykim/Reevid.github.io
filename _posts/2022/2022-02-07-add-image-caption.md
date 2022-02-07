@@ -60,7 +60,7 @@ table {
     display: revert;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
 }
 
 img {
