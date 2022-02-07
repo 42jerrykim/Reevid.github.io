@@ -47,8 +47,8 @@ int main()
     string s1 = "hello! C world";
     string s2 = "world";
 
-    ssize_t pos;
-    if ((pos = s1.find(s2)) != string::npos) {
+    ssize_t pos = s1.find(s2);
+    if (pos != string::npos) {
         cout << "found!" << '\n';
         cout << pos << endl;
     }
