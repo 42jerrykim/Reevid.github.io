@@ -49,8 +49,18 @@ $max-width: 100%;
     }
 }
 
+.image-caption {
+    text-align: center;
+    font-size: small;
+}
+
 table {
+    display: revert;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+}
+
+img {
+    width: 100%;
 }
