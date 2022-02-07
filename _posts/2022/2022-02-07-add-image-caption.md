@@ -26,6 +26,7 @@ tag:
 {:.image-caption}
 그림 1.1 엔지니어링 직원 수의 증가 추이
 ```
+
 ```css
 .image-caption {
     text-align: center;
