@@ -1,6 +1,6 @@
 ---
 title: "[Jekyll] 이미지에 캡션 추가하기"
-category: Jekyll
+category: [Jekyll, Markdown]
 tag:
  - image
  - caption
