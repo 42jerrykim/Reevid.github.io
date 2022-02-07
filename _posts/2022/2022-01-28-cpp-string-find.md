@@ -1,6 +1,6 @@
 ---
 title: "[C/C++] 문자열에서 특정 문자열이 있는지 찾는 방법"
-category: Cpp
+category: CPP
 tag:
  - C/C++
  - string

@@ -1,11 +1,7 @@
 ---
-
 title: "[Shell] Exit Codes With Special Meanings"
-description: "Exit Codes With Special Meanings"
 categories: [Shell]
 tags: [Shell, bash, exit, reserved]
-redirect_from:
-  - /2019/02/14/
 ---
 
 

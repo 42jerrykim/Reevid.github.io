@@ -1,14 +1,8 @@
 ---
-
 title: "[Draft][C#] MemoryMappedFile - 여러 프로세스에서 메모리에 매핑된 파일에 접근하자"
-description: ""
-categories: [C#]
+categories: [.NET]
 tags: [MemoryMappedFile, C#, Programming]
-redirect_from:
-  - /2019/03/29/
 ---
-
-
 
 # MemoryMappedFile 설명
 # 리눅스에서는 Named는 사용 불가 하다
