@@ -1,8 +1,8 @@
 ---
-title: "[Karmdown] Karmdown으로 랜더링되는 code 영역에 줄번호 표시하기"
-category: [Karmdown, Jekyll, Markdown]
+title: "[Kramdown] Kramdown으로 랜더링되는 code 영역에 줄번호 표시하기"
+category: [Kramdown, Jekyll, Markdown]
 tag:
- - Karmdown
+ - Kramdown
  - Jekyll
  - Markdown
  - Code
@@ -13,7 +13,7 @@ tag:
  - Auto
 ---
 
-Jekyll로 구성된 웹페이지는 Markdown과 비슷한 Karmdown을 사용하는 경우가 많다. 기본적으로 Karmdown문법이 Markdown과 같아서 글을 작성하는데 어려움이 없고 Markdown보다 더 많은 기능을 제공한다. 코드를 표시할때 ` ``` `을 사용하여 표시한다. 이럴때 라인넘버가 나오지 않아서 긴 코드를 볼때 불편함이 많다. code영역에 라인 번호를 출력하는 방법에 대해서 알아본다.
+Jekyll로 구성된 웹페이지는 Markdown과 비슷한 Kramdown을 사용하는 경우가 많다. 기본적으로 Kramdown문법이 Markdown과 같아서 글을 작성하는데 어려움이 없고 Markdown보다 더 많은 기능을 제공한다. 코드를 표시할때 \`\`\`을 사용하여 표시한다. 이럴때 라인넘버가 나오지 않아서 긴 코드를 볼때 불편함이 많다. code영역에 라인 번호를 출력하는 방법에 대해서 알아본다.
 
 # Code 영역에 라인 번호 출력하기
 
@@ -32,9 +32,9 @@ kramdown:
       line_numbers: true
 ```
 
-본문에서는 ` ``` `을 그대로 사용하면서 출력되는 내용에만 라인 번호를 표시할 수 있다.
+본문에서는 \`\`\`을 그대로 사용하면서 출력되는 내용에만 라인 번호를 표시할 수 있다.
 
-## Karmdown의 code highlight를 사용하는 방법
+## Kramdown의 code highlight를 사용하는 방법
 
 코드블록 작성 시 위 코드의 맨 위와 아래에 아래의 코드를 사용한다.
 
@@ -62,9 +62,8 @@ code.highlighter-rouge {
 
 아래의 예시를 살펴 보자
 
-```c
-// 원본
-{% highlight ruby linenos %}
+```markdown
+{% highlight python linenos %}
 def dosomething
   delegate :some, :thing, :with, :unicorns, :and, :shrimps => :yolo, :someother key => true, :maybeonemore => true
 end
