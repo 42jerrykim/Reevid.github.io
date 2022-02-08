@@ -14,7 +14,14 @@ $max-width: 100%;
 @import "minimal-mistakes"; // main partials
 
 div.highlighter-rouge{
-    background: mix($background-color, $primary-color, 95%)
+    background: mix($background-color, $primary-color, 90%);
+}
+
+code.highlighter-rouge {
+    background:  mix($background-color, $primary-color, 90%);
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1em;
 }
 
 .breadcrumbs {
