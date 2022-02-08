@@ -28,6 +28,12 @@ logo: https://raw.githubusercontent.com/Reevid/Reevid.github.io/master/favicon.i
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
+kramdown:
+  highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
