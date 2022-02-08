@@ -22,7 +22,6 @@ tag:
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
 ```
 ## 2. 최대 넓이 확장하기
 
