@@ -5,6 +5,8 @@ tag:
  - Jekyll
  - MinimalMistakes
  - Theme
+header:
+ teaser: assets\images\2022-02-09 214522.png
 ---
 
 [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)을 사용하여 Gibhub 페이지를 구성한 경우에는 최대 너비가 지정되어 있어 일정 크기 이상으로 넓어지지 않는다. [Sample Post](https://mmistakes.github.io/minimal-mistakes/year-archive/)에서 [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)가 어떻게 동작하는지 확인 할 수 있다. 이런 경우에 더 넓은 페이지를 구성하고 싶은 사람들을 위한 가이드이다. 

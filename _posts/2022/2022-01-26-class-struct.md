@@ -9,6 +9,8 @@ tag:
   - Struct
   - GarvageCollection
   - DotNET
+header:
+ teaser: https://miro.medium.com/max/712/1*GijseQ3xYJ5OT2t-PRQFXA.png
 ---
 
 모든 개발자에 있어서 코드에 대한 기본적인 결정 사항 중 하나는 클래스(참조 형식)를 사용해서 표현할 것인지 아니면 구조체(값 형식)를 사용해서 표현할 것인지를 결정하는 것이다. 클래스 및 구조체의 동작의 차이점을 이해하는 것은 이를 선택하는 데 매우 중요하다.
