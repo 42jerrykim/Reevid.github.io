@@ -79,3 +79,9 @@ PlantUML 에서 링크를 이용한 방법이다.
 # 결론
 
 Action을 사용하는것이 나중에 유지보수를 하는 면에 있어서도 더 편할 수 있을것 같다.
+
+|![](/plantuml/md-sample-sequence.svg)|![PlantUML model](https://www.plantuml.com/plantuml/png/JSyz3i8m30NWtQVm1HYWFmC3wiG9k82RPAWKR2bn1suFhgdayUMJtekNhjHqVrUWfDBmANA5LNREr3wMRf24jKcrC41XtVI04J8fhTIBfGcIr5gIRiBT7cQmAhmyZXAyuqlmx8qqEFr7eemklXXXSZZd8yrEuI-m5Cw_-xu0)|
+|:--:|:--:|
+|GitHub Action을 사용한 결과|이미지 링크를 사용한 결과|
+
+또한, Github Action을 사용한 결과물의 화질이 더 좋은것을 확인 할 수 있다.
