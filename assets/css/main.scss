@@ -96,3 +96,9 @@ a.page_date_saperator {
     display: inline-block;
     text-decoration: none;
 }
+
+.grid__item {
+    .archive__item-teaser {
+        max-height: 500px;
+    }
+}
