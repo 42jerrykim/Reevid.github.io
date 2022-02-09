@@ -2,6 +2,7 @@
 title: "[Jekyll] Jekyll에서 Plantuml 사용하기"
 categories:
   - Jekyll
+  - Plantuml
 tags:
   - Jekyll
   - Plantuml
