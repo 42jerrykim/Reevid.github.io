@@ -57,8 +57,11 @@ code.highlighter-rouge {
   white-space: pre-wrap;
 }
 ```
+<script src="https://gist.github.com/Reevid/f807c626c89e635077be40debf2e05d6.js"></script>
 
-하지만 이 기능은 최종적으로 jekyll 또는 kramdown/rouge 설정과 같이 사용되면 문제가 발생한다. 라인 번호는 `<td>`와 근처에 있는 `<td>`사이에 존재 하기 때문이다.
+적용 후를 보면 코드의 라인수는 4이지만 라인넘버는 3에서 끝나기 때문에 이상하게 표시되는것을 알 수 있다.
+
+이러한 문제는 jekyll 또는 kramdown/rouge 설정과 같이 사용하면서 발생한다. 라인 번호는 `<td>`와 근처에 있는 `<td>`사이에 존재 하기 때문이다.
 
 # 결론
 
