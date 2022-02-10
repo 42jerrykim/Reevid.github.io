@@ -85,7 +85,7 @@ plugins:
   
 author:
   name   : "Jerry Jong-Min Kim"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "assets\images\KakaoTalk_20220210_094951700.png"
   bio    : "김종민의 개발 블로그입니다."
   links:
     - label: "GitHub"
