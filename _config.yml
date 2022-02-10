@@ -56,7 +56,7 @@ analytics:
     anonymize_ip: false # default
 
 teaser: https://cloudspoint.xyz/wp-content/uploads/2020/02/CODE-1.jpg
-og_image: /assets/images/bio-photo.jpg
+og_image: /assets/images/KakaoTalk_20220210_095101080.png
 
 include:
   - _pages
