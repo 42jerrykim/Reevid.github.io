@@ -56,7 +56,7 @@ analytics:
     anonymize_ip: false # default
 
 teaser: https://cloudspoint.xyz/wp-content/uploads/2020/02/CODE-1.jpg
-og_image: /assets/images/KakaoTalk_20220210_095101080.png
+og_image: /assets/images/KakaoTalk_20220210_094951700.png
 
 include:
   - _pages
@@ -85,7 +85,7 @@ plugins:
   
 author:
   name   : "Jerry Jong-Min Kim"
-  avatar : "assets\images\KakaoTalk_20220210_094951700.png"
+  avatar : "/assets/images/KakaoTalk_20220210_095101080.png"
   bio    : "김종민의 개발 블로그입니다."
   links:
     - label: "GitHub"
