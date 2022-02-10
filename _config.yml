@@ -22,7 +22,7 @@ search: true
 
 repository               : "Reevid/Reevid.github.io"
 
-logo: https://raw.githubusercontent.com/Reevid/Reevid.github.io/master/favicon.ico
+# logo: https://raw.githubusercontent.com/Reevid/Reevid.github.io/master/favicon.ico
 
 # Build settings
 markdown: kramdown
