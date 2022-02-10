@@ -30,9 +30,7 @@ code.highlighter-rouge {
     font-family: $monospace;
 }
 
-img.u-photo {
-    max-width: 100%
-}
+
 
 .breadcrumbs {
     @include clearfix;
@@ -103,7 +101,16 @@ a.page_date_saperator {
     }
 }
 
+img.u-photo {
+    max-width: 100%
+}
 .author__avatar img{
     padding: 0%;
     border: 0em;
+}
+.author__avatar {
+    display: table-cell;
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
 }
