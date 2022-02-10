@@ -9,6 +9,8 @@ tags:
   - markdown
   - diagram
   - Image
+header:
+  teaser: /plantuml/md-sample-sequence.svg
 ---
 
 온라인에서 무료로 UML을 그리는 툴 중에서 ![PlantUML](https://plantuml.com/)이라는 사이트가 있다. 해당 사이트에서 다양한 기능을 제공하고 있다. 본 글에서는 GitHub Page에서 PlantUML을 사용 할 수 있는 방법을 알아본다.
