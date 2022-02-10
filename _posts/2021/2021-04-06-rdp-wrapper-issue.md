@@ -6,6 +6,8 @@ tags:
   - RDPWrapper
   - 20H2
   - Windows
+header:
+  teaser: https://user-images.githubusercontent.com/11385249/112481810-73097380-8d88-11eb-90ae-27adaa456182.png
 ---
 
 RDP Wrapper는 윈도우 원격을 여러명이서 동시에 사용할 수 있도록 해주는 좋은 프로그램이다. 하지만 그냥 설치 했을때는 not supported 문제가 발생하여 사용을 할 수 없는 경우가 있다. 본 게시물에서는 Win 10 Pro 20H2에서 not supported문제를 해결 할 수 있는 방법을 알려준다.
