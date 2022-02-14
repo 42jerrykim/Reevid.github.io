@@ -8,6 +8,8 @@ tag:
 - Convert
 - long
 - int
+header:
+  teaser: https://media.vlpt.us/images/jinuku/post/e62f8f63-4001-46f9-b811-dc6f62f0828e/40cc3e52-745d-48b8-8a09-02c21efc36e5.png
 ---
 
 기본 데이터 형식을 다른 데이터 형식으로 변환하는 방법에 대해서 알아본다.
