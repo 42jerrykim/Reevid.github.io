@@ -9,6 +9,8 @@ tags:
   - GC
   - Memory
   - DotNET
+header:
+  teaser: https://media.vlpt.us/images/jinuku/post/e62f8f63-4001-46f9-b811-dc6f62f0828e/40cc3e52-745d-48b8-8a09-02c21efc36e5.png
 ---
 
 대부분의 개발자는 자기의 경험이나 생각에 따라서 코드를 작성 하는 경우가 많다. 하나의 예시로는 C++개발에 익숙한 개발자들이 C#으로 개발을 시작할때 Class Finalizer에서 자원을 관리 하는 경우이다.

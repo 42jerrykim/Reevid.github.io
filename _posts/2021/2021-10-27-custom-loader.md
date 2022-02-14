@@ -11,6 +11,8 @@ tags:
   - Loader
   - C#
   - DotNET
+  header:
+  teaser: https://media.vlpt.us/images/jinuku/post/e62f8f63-4001-46f9-b811-dc6f62f0828e/40cc3e52-745d-48b8-8a09-02c21efc36e5.png
 ---
 
 다른 위치에 있는 dll을 pligin으로 사용하려고 할때 dll을 못 찾는 이슈가 발생 할 수 있다.
