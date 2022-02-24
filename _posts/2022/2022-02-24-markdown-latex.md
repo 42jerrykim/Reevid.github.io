@@ -7,7 +7,7 @@ tag:
  - MathJax
  - Markdown
  - Kramdown
- - Jykell
+ - Jekyll
  - 수학
  - 수식
  - GitHub Page
