@@ -75,6 +75,56 @@ $$( a^2 )$$
 
 [Typesetting mathematics](https://www.latex-project.org/help/documentation/#typesetting-complex-mathematics)에서 LaTeX의 여러 문법중 수식과 관련된 내용을 확인 할 수 있다.
 
+## 이차방정식의 근의 공식
+
+```
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+```
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+
+## 첨자
+
+```
+$$a_1, a^2, a_1^2$$
+$$y_i=x_i^3+x_{i-1}^2+x_{i-2}$$
+```
+
+$$a_1, a^2, a_1^2$$
+
+$$y_i=x_i^3+x_{i-1}^2+x_{i-2}$$
+
+## 분수
+
+분수 표기법에는 두 가지 방법이 있습니다.
+
+1. `\over`를 사용하면 \over를 기준으로 왼쪽에 있는 수식은 모두 분자, 오른쪽에 있는 수식은 모두 분모로 들어가게 됩니다.
+1. `\frac`을 사용하게 되면 첫 번째 문자는 분자, 두 번째 문자는 분모로 들어가게 됩니다. 두 문자 이상이라면 중괄호{ }를 통하여 묶어주면 됩니다.
+
+```
+$$s^2+2s+s\over s+\sqrt s+1$$
+$$\frac{1+s}{s(s+2)}$$
+```
+
+$$s^2+2s+s\over s+\sqrt s+1$$
+
+$$\frac{1+s}{s(s+2)}$$
+
+## 절대값 표기법
+
+일반적으로 절대값을 표기할 때는 키보드 위의 | 문자를 사용하게 됩니다.
+하지만 이렇게 하면 분수와 같이 큰 객체에 맞게 resizable한 기호를 사용할 수 없습니다.
+그럴 땐 `\vert`와 `\left`, `\right`를 통하여 좌우 기호를 명시해주면 됩니다.
+
+```
+$$\vert x \vert$$
+$$\left\lvert \frac{s^2+1}{s^3+2s^2+3s+1} \right\rvert$$
+```
+
+$$\vert x \vert$$
+
+$$\left\lvert \frac{s^2+1}{s^3+2s^2+3s+1} \right\rvert$$
+
 # Cheat Sheet
 
 매번 문법에 관련된 문서를 보고 작성하는것은 어려우니 [Cheat Sheet](https://drive.google.com/file/d/1dEEAXMhHo9TgmZmXSNWSVlG6YOeWp_gj/view)를 보는것도 괜찮은 방법이다.
