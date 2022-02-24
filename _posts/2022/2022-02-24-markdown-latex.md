@@ -25,11 +25,11 @@ header:
 |:--:|
 |MathJax를 사용하여 수식을 보기 좋게 표시 할 수 있다.|
 
-문서를 표현할 때 문자와 그림 등의 요소를 조합하여 표시 할 수 있는 [LaTeX](https://www.latex-project.org/)(‘LaTeX’은 ‘레이텍’ 또는 ‘라텍’이라고 읽는다.)라는 시스템이 있다. LaTeX을 이용하면 수식이 삽입된 문서를 아름답게 표시할 수 있어서, 주로 수리과학을 기반으로 하는 분야의 논문을 작성할 때 LaTeX이 사용된다.
+문서를 표현할 때 문자와 그림 등의 요소를 조합하여 표시 할 수 있는 [LaTeX](https://www.latex-project.org/)(LaTeX은 레이텍 또는 라텍이라고 읽는다.)라는 시스템이 있다. LaTeX을 이용하면 수식이 삽입된 문서를 아름답게 표시할 수 있어서, 주로 수리과학을 기반으로 하는 분야의 논문을 작성할 때 LaTeX이 사용된다.
 
 [MathJax](https://www.mathjax.org/)는 오픈소스로 LaTeX, MathML, 그리고 AsciiMath 표기법을 사용한 수식을 표시해주는 JavaScript 엔진이다. Markdown으로 작성된 텍스트를 Jekyll을 통하여 웹페이지로 표시하는 것과 비슷하게 수식을 LaTex 표기법으로 작성하면 웹페이지에 수식을 표시할 수 있도록 구현한 시스템이다.
 
-자세한 내용은 [MathJax Documentation](http://docs.mathjax.org/en/latest/)를 참고하자.
+자세한 내용은 [MathJax Documentation](http://docs.mathjax.org/en/latest/)을 참고하자.
 
 |타입|표기법|표시해줄 수 있는 엔진|
 |:--:|:--:|:--:|
