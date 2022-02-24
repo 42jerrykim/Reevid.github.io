@@ -122,6 +122,7 @@ img.u-photo {
 mjx-container {
     background:  mix($background-color, $primary-color, 80%);
     padding: 1em;
+    text-align: left !important;
 }
 
 .page__content {
