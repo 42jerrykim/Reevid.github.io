@@ -14,6 +14,13 @@ $serif      : Georgia, Times, serif;
 $sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace  : D2Coding, 'D2 coding', Monaco, Consolas, "Lucida Console", monospace;
 
+$h-size-1: 2em !default; 
+$h-size-2: 1.8em !default; 
+$h-size-3: 1.6em !default; 
+$h-size-4: 1.4em !default; 
+$h-size-5: 1.2em !default; 
+$h-size-6: 1em !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -125,4 +132,12 @@ img.u-photo {
 mjx-container {
     background:  mix($background-color, $primary-color, 80%);
     padding: 0.5em;
+}
+
+.page__content {
+    h1, h2, h3, h4, h5, h6  {
+        margin: 2.5em 0 0.5em;
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid $border-color;
+    }
 }
