@@ -129,7 +129,7 @@ mjx-container {
     h1, h2, h3, h4, h5, h6  {
         margin: 2em 0 0.5em;
         padding-bottom: 0.5em;
-        border-bottom: 1px solid $border-color;
+        border-bottom: 2px solid $border-color;
     }
 
     h1 {
@@ -155,4 +155,13 @@ mjx-container {
     h6 {
         font-size: 1em;
     }
+
+    .nav__title {
+        margin: 0;
+    }
+}
+
+strong {
+    font-size: 1.3em;
+    color: white;
 }
