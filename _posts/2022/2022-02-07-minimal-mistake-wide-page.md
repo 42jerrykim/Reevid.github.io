@@ -13,7 +13,7 @@ header:
 
 # 적용 방법
 ## 1. main.scss 추가 하기
-[Customizing](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing)의 내용중에서 2번을 참고하여 assets/css/main.scss 파일을 생성하고 아래의 내용으로 main.scss를 채운다.
+[Customizing](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing)의 내용 중에서 2번을 참고하여 assets/css/main.scss 파일을 생성하고 아래의 내용으로 main.scss를 채운다.
 
 ```scss
 ---
@@ -27,13 +27,13 @@ header:
 ```
 ## 2. 최대 넓이 확장하기
 
-추가된 main.scss에 아래의 내용를 추가하면 웹사이트의 최대 너비 제한이 풀린다.
+추가된 main.scss에 아래의 내용을 추가하면 웹사이트의 최대 너비 제한이 풀린다.
 
 ```scss
 $max-width: 100%;
 ```
 
-다만 주의 해야 되는것은 main.scss에 아무 위치에 ```$max-width: 100%;```를 추가하면 안된다. 아래의 코드처럼 ```$max-width: 100%;```을 ```@import```가 시작 하기 전에 작성한다.
+다만 주의해야 되는 것은 main.scss에 아무 위치에 ```$max-width: 100%;```를 추가하면 안 된다. 아래의 코드처럼 ```$max-width: 100%;```을 ```@import```가 시작하기 전에 작성한다.
 
 ```scss
 ---
