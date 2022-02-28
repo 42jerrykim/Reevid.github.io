@@ -1,6 +1,6 @@
 ---
-title: "µtorrent queueing policy"
-categories: [µTorrent]
+title: "[µtorrent] µtorrent queueing policy"
+categories: [uTorrent]
 tags: [Torrent, µTorrent, uTorrent, seeding, queueing, Goal]
 ---
 
