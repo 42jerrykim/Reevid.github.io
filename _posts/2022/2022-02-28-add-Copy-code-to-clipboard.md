@@ -107,3 +107,9 @@ pre.highlight {
 # 결론
 
 다른 방법도 있겠지만 Markdown으로 작성된 글을 다른곳에서도 사용 할수 있도록 하기 위해서 JS를 이용하여 처리 하였다.
+
+# 참고
+
+* [Jekyll: Copy code to clipboard](https://remarkablemark.org/blog/2021/06/01/add-copy-code-to-clipboard-button-to-jeyll-site/)
+* [jekyll-clipboardjs](https://github.com/marcoaugustoandrade/jekyll-clipboardjs)
+* [How to Add a Copy-to-Clipboard Button to Jekyll](https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/)
