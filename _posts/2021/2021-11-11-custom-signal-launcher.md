@@ -48,4 +48,4 @@ int main(void)
 ```
 # async-signal-safe function을 사용해야 한다.
 
-https://man7.org/linux/man-pages/man7/signal-safety.7.html
+[signal-safety(7) — Linux manual page](https://man7.org/linux/man-pages/man7/signal-safety.7.html)
