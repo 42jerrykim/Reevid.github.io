@@ -24,9 +24,7 @@ void handler(int signo, siginfo_t *info, void *context)
 {
     struct sigaction oldact;
 
-    if (sigaction(SIGSEGV, NULL, &oldact) == -1 ||
-            (oldact.sa_flags & SA_UNSUPPORTED) ||
-            !(oldact.sa_flags & SA_EXPOSE_TAGBITS)) {
+    if (sigaction(SIGSEGV, NULL, &oldact) == -1 || (oldact.sa_flags & SA_UNSUPPORTED) || !(oldact.sa_flags & SA_EXPOSE_TAGBITS)) {
         _exit(EXIT_FAILURE);
     }
     _exit(EXIT_SUCCESS);
