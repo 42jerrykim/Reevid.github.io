@@ -1,16 +1,10 @@
 ---
-
 title: "µtorrent queueing policy"
-description: ""
 categories: [µTorrent]
 tags: [Torrent, µTorrent, uTorrent, seeding, queueing, Goal]
-redirect_from:
-  - /2019/05/31/
 ---
 
 # Queueing
-
-
 
 ## Queue Settings
 
