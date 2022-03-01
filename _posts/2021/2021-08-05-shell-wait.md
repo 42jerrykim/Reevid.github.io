@@ -13,9 +13,9 @@ Wait 커맨드는 프로세스의 실행 종료를 대기하게 한다. 특정 �
 
 # 사용 방법
 
-* wait %Background ID # jobs 로 확인할 수 있는 백그라운드 번호로 대기
-* wait PID # PID 번호의 프로세스 대기
-* wait # 전체 서브 프로세스 종료 대기 
+* **wait %Background ID** : jobs 로 확인할 수 있는 백그라운드 번호로 대기
+* **wait PID** : PID 번호의 프로세스 대기
+* **wait** : 전체 서브 프로세스 종료 대기 
 
 # 예시
 
