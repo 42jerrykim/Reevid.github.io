@@ -1,3 +1,0 @@
----
-title: "Abstract Factory Pattern"
----
