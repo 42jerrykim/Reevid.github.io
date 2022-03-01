@@ -34,11 +34,11 @@ unount 명령어를 사용해서 문제가 되는 디렉토리 제거를 시도�
 
 ## -l 또는 -f 옵션 사용
 
-```
+```bash
 $ umount -l /datadisk
 ```
 또는
-```
+```bash
 $ umount -f /datadisk
 ```
 * -f 옵션 : 않되는 경우도 있음
@@ -51,7 +51,7 @@ $ sudo umount -nl /home1/jong-min.kim/VBS-ROOT/local/BUILD-ROOTS/scratch.armv7l.
 이때 -l 옵션을 사용하여 디렉토리를 unmount 시켜주면 원하는 동작이 잘 이루어지는것을 볼 수 있다.
 
 # fuser 사용
-```
+```bash
 fuser -ck /datadisk
 umount /datadisk
 ```
