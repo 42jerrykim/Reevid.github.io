@@ -11,7 +11,7 @@ author_profile: true
   {% unless collection.output == false %}
     {% if collection.label != "posts" %}
       <section id="{{ collection.label | slugify | downcase }}" class="taxonomy__section">
-        <h1 id="{{ label | slugify }}">Posts of <a href="{{ collection.label }}">{{ collection.Title }}</a></h1>
+        <h2 class="archive__subtitle" id="{{ label | slugify }}">Posts of <a href="{{ collection.label }}">{{ collection.Title }}</a></h2>
           {% for item in collection.docs %}
             <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>&nbsp&nbsp|&nbsp
           {% endfor %}
@@ -25,7 +25,7 @@ author_profile: true
   {% unless collection.output == false %}
     {% if collection.label == "posts" %}
     <section id="{{ collection.label | slugify | downcase }}" class="taxonomy__section">
-      <h1 id="{{ label | slugify }}"><a href="/posts">Posts not in the collection</a></h1>
+      <h2 class="archive__subtitle" id="{{ label | slugify }}"><a href="/posts">Posts</a> not in the collection</h2>
         {% for item in collection.docs %}
           <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>&nbsp&nbsp|&nbsp
         {% endfor %}
@@ -40,7 +40,7 @@ author_profile: true
     <section id="{{ collection.label | slugify | downcase }}" class="taxonomy__section">
       {% capture label %}{{ collection.Title }}{% endcapture %}
       {% if label != written_label %}
-        <h1 id="{{ label | slugify }}">Posts of <a href="{{ collection.label }}">{{ label }}</a></h1>
+        <h2 class="archive__subtitle" id="{{ label | slugify }}">Posts of <a href="{{ collection.label }}">{{ label }}</a></h2>
         {% capture written_label %}{{ label }}{% endcapture %}
       {% endif %}
       {% for post in collection.docs %}
