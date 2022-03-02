@@ -1,6 +1,6 @@
 ---
 title: "[C#] long -> int 변환하기"
-category: .NET
+category: DotNET
 tag:
 - C#
 - .NET

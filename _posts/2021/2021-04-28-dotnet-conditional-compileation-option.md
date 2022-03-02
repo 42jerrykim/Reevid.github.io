@@ -1,7 +1,7 @@
 ---
 title: "[.NET] Conditioanal compilation option 적용하기"
 categories:
-  - .NET
+  - DotNET
 tags:
   - dotnet
   - build

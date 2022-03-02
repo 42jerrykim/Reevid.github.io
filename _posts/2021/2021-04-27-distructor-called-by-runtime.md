@@ -1,7 +1,7 @@
 ---
 title: "[C#] Runtime에 따른 Finalizer 호출 차이"
 categories:
-  - .NET
+  - DotNET
 tags:
   - C#
   - Distructor

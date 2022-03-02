@@ -1,7 +1,7 @@
 ---
 title: "[C#] 왜 리플렉션은 느린가?"
 categories: 
-  - .NET
+  - DotNET
 tags: 
   - DotNET
   - C#
