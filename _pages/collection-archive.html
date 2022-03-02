@@ -12,11 +12,9 @@ author_profile: true
     {% if collection.label != "posts" %}
       <section id="{{ collection.label | slugify | downcase }}" class="taxonomy__section">
         <h1 id="{{ label | slugify }}">Posts of <a href="{{ collection.label }}">{{ collection.Title }}</a></h1>
-        <ul>
           {% for item in collection.docs %}
-            <a href="{{ item.url | relative_url }}" rel="permalink" style="white-space:nowrap; ">{{ item.title }}</a>&nbsp&nbsp|&nbsp
+            <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>&nbsp&nbsp|&nbsp
           {% endfor %}
-        </ul>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
     {% endif %}
@@ -28,11 +26,9 @@ author_profile: true
     {% if collection.label == "posts" %}
     <section id="{{ collection.label | slugify | downcase }}" class="taxonomy__section">
       <h1 id="{{ label | slugify }}"><a href="/posts">Posts not in the collection</a></h1>
-      <ul>
         {% for item in collection.docs %}
-        <a href="{{ item.url | relative_url }}" rel="permalink" style="white-space:nowrap; ">{{ item.title }}</a>&nbsp&nbsp|&nbsp
+          <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>&nbsp&nbsp|&nbsp
         {% endfor %}
-      </ul>
       <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     </section>
     {% endif %}
@@ -48,32 +44,9 @@ author_profile: true
         {% capture written_label %}{{ label }}{% endcapture %}
       {% endif %}
       {% for post in collection.docs %}
-      <ul>
-          {% include archive-single.html %}
-        </ul>
+        {% include archive-single.html %}
       {% endfor %}
       <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     </section>
   {% endunless %}
 {% endfor %}
-
-
-
-<!-- {% for collection in site.collections %}
-<section id="{{ collection.label | slugify | downcase }}" class="taxonomy__section">
-  {% unless collection.output == false or collection.label == "posts" %}
-    {% capture label %}{{ collection.Title }}{% endcapture %}
-    {% if label != written_label %}
-      </br></br></br>
-      <h1 id="{{ label | slugify }}"><a href="{{ collection.label }}"># {{ label }}</a></h1>
-      {% capture written_label %}{{ label }}{% endcapture %}
-    {% endif %}
-  {% endunless %}
-  {% for post in collection.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single.html %}
-    {% endunless %}
-  {% endfor %}
-  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-</section>
-{% endfor %} -->
