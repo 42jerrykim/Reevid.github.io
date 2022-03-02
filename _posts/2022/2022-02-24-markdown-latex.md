@@ -133,6 +133,6 @@ $$\left\lvert \frac{s^2+1}{s^3+2s^2+3s+1} \right\rvert$$
 
 * [The Latex Project](https://www.latex-project.org/)
 * [MathJax Documentation](http://docs.mathjax.org/en/latest/)
-* [MathJax로 LaTeX 사용하기 ](https://johngrib.github.io/wiki/mathjax-latex/)
+* [MathJax로 LaTeX 사용하기](https://johngrib.github.io/wiki/mathjax-latex/)
 * [MathJax로 수식 입력하는 방법](https://sasamath.com/blog/tip-collection/how-to-write-equations-in-mathjax/)
 * [[LaTex] Markdown 수식 작성법](https://velog.io/@d2h10s/LaTex-Markdown-%EC%88%98%EC%8B%9D-%EC%9E%91%EC%84%B1%EB%B2%95)

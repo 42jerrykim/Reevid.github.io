@@ -4,7 +4,6 @@ layout: collection
 permalink: /collections/cleanarchitecture/
 collection: cleanarchitecture
 entries_layout: grid
-classes: wide
 ---
 
 | ![책 표지](https://insightbookblog.files.wordpress.com/2019/08/ed919ceca780ec9e85ecb2b4.jpg?w=500) | 

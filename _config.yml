@@ -15,14 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 title: Jerry Jong-Min Kim
 email: reevid7@gmail.com
-description: 김종민의 개발 블로그입니다.
+description: 김종민의 개발 블로그입니다. .NET, C/C++, Linux, Clean Code 관련글을 하고 있습니다.
 github_username: Reevid
 minimal_mistakes_skin: dark
 search: true
 
 repository               : "Reevid/Reevid.github.io"
 
-# logo: https://raw.githubusercontent.com/Reevid/Reevid.github.io/master/favicon.ico
+# logo: /assets/images/KakaoTalk_20220210_094951700.png
 
 # Build settings
 markdown: kramdown
@@ -55,7 +55,7 @@ analytics:
     tracking_id: "G-ESFX2F44J5"
     anonymize_ip: false # default
 
-teaser: https://cloudspoint.xyz/wp-content/uploads/2020/02/CODE-1.jpg
+teaser: https://pilbox.themuse.com/image.jpg?filter=antialias&h=422&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2F01212022-1047259374-coding-classes_scanrail.jpg%3Fv%3D1cc61016a54a7e07475549aca7c39b38545e3ed6&w=767
 og_image: /assets/images/KakaoTalk_20220210_094951700.png
 
 include:
