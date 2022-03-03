@@ -139,6 +139,8 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+      read_time: true
+      show_date: true
   # # _cycle
   # - scope:
   #     path: ""
@@ -163,6 +165,8 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+      read_time: true
+      show_date: true
   # _cleanarchitecture
   - scope:
       path: ""
@@ -175,6 +179,8 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+      read_time: true
+      show_date: true
   # _algorithm
   - scope:
       path: ""
@@ -187,6 +193,8 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+      read_time: true
+      show_date: true
   # _testing
   - scope:
       path: ""
@@ -199,6 +207,8 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+      read_time: true
+      show_date: true
   # _cmd
   - scope:
       path: ""
@@ -211,6 +221,8 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+      read_time: true
+      show_date: true
 
 category_archive:
   type: liquid
