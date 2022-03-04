@@ -32,6 +32,7 @@ Github Action을 사용하여 Github에서 랜더링을 하거나 Plantuml의 �
 해당 페이지에 있는 내용을 따라 하면서 살짝 어려웠던 부분은 sample에는 md 파일에서 바로 svg를 생성해 주는 느낌이었지만 별도의 PlantUML 파일을 만들어서 작업해야 해야 동작하는 것을 확인 할 수 있었다.
 
 md-sample-sequence.plantuml 파일을 생성하고 아래의 코드로 내용을 채운다.
+
 ```
 @startuml
 actor Foo1
@@ -79,7 +80,9 @@ PlantUML 에서 링크를 이용한 방법이다.
 
 최종적으로 아래의 그림처럼 이미지가 추가된 것을 확인 할 수 있다.
 
-![PlantUML model](https://www.plantuml.com/plantuml/png/JSyz3i8m30NWtQVm1HYWFmC3wiG9k82RPAWKR2bn1suFhgdayUMJtekNhjHqVrUWfDBmANA5LNREr3wMRf24jKcrC41XtVI04J8fhTIBfGcIr5gIRiBT7cQmAhmyZXAyuqlmx8qqEFr7eemklXXXSZZd8yrEuI-m5Cw_-xu0)
+|![PlantUML model](https://www.plantuml.com/plantuml/png/JSyz3i8m30NWtQVm1HYWFmC3wiG9k82RPAWKR2bn1suFhgdayUMJtekNhjHqVrUWfDBmANA5LNREr3wMRf24jKcrC41XtVI04J8fhTIBfGcIr5gIRiBT7cQmAhmyZXAyuqlmx8qqEFr7eemklXXXSZZd8yrEuI-m5Cw_-xu0)|
+|:--:|
+|PlantUML model|
 
 이미지 주소에서 png만 지우면 다시 편집할 수 있는 장점이 있지만 주소가 바뀌는것을 주의해야 한다.
 
