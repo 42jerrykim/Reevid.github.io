@@ -27,7 +27,7 @@ header:
   
   codeBlocks.forEach(function (codeBlock) {
     var copyButton = document.createElement('button');
-    copyButton.className = 'copy btn';
+    copyButton.className = 'copy btn'; // btn은 minimal mistake에서 지원하는 버튼을 사용하기 위해 추가 하였다.
     copyButton.type = 'button';
     copyButton.ariaLabel = 'Copy code to clipboard';
     copyButton.innerText = 'Copy';
@@ -73,36 +73,6 @@ pre.highlight {
 버튼을 이쁘게 보이기 위한 css이다. main.scss에 추가한다.
 
 [GitHub Commit](https://github.com/Reevid/Reevid.github.io/commit/4173b700ae7252bfb5d10860295d888bdaf023d6)을 참조 하는것도 괜찮은 방법이다.
-
-# 코드 설명
-
-```html
-<script>
-  var codeBlocks = document.querySelectorAll('pre.highlight'); // 코드 영역을 찾는다.
-  
-  codeBlocks.forEach(function (codeBlock) { // 버튼을 추가 하는 코드
-    var copyButton = document.createElement('button');
-    copyButton.className = 'copy btn';
-    copyButton.type = 'button';
-    copyButton.ariaLabel = 'Copy code to clipboard';
-    copyButton.innerText = 'Copy';
-  
-    codeBlock.append(copyButton);
-  
-    copyButton.addEventListener('click', function () {
-      var code = codeBlock.querySelector('.rouge-code').innerText.trim();
-      window.navigator.clipboard.writeText(code);
-  
-      copyButton.innerText = 'Copied';
-      
-      var fourSeconds = 4000;
-      setTimeout(function () {
-        copyButton.innerText = 'Copy';
-      }, fourSeconds);
-    });
-  });
-</script>
-```
 
 # 결론
 
