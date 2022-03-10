@@ -1,5 +1,5 @@
 ---
-title: Unit Testing
+title: Unit Testing Principles, Practices, and Patterns
 layout: collection
 permalink: /collections/unittesting/
 collection: unittesting
