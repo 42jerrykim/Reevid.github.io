@@ -223,6 +223,20 @@ defaults:
       comments: true
       read_time: true
       show_date: true
+  # _unittesting
+  - scope:
+      path: ""
+      type: unittesting
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
+      read_time: true
+      show_date: true
 
 category_archive:
   type: liquid
@@ -259,6 +273,10 @@ collections:
     permalink: /collections/:collection/:path/
   cleanarchitecture:
     Title: "Clean Architecture"
+    output: true
+    permalink: /collections/:collection/:path/
+  unittesting:
+    Title: "Unit Testing"
     output: true
     permalink: /collections/:collection/:path/
 
