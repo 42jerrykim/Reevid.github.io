@@ -1,5 +1,7 @@
 @startuml book
 
-a->b
+skinparam componentStyle rectangle
+
+[테스트 정확도\n(4장)]->[거짓 음성\n(4장)] : 정의
 
 @enduml
