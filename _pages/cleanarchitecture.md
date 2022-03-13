@@ -6,7 +6,7 @@ collection: cleanarchitecture
 entries_layout: grid
 ---
 
-| ![책 표지](https://insightbookblog.files.wordpress.com/2019/08/ed919ceca780ec9e85ecb2b4.jpg?w=500) | 
+| ![책 표지](/assets/images/ed919ceca780ec9e85ecb2b4.jpg) | 
 |:--:| 
 | 클린 아키텍처 책 표지 |
 
