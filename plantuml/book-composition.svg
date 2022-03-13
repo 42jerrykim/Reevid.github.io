@@ -41,7 +41,7 @@ link 프로세스 내부 의존성\n(2장) to 협력자\n(2장)--><g id="link_�
 link 단위테스트 to 빠른 피드백\n(4장)--><g id="link_단위테스트_빠른 피드백\n(4장)"><path d="M106.1148,226.5 C146.683,226.5 206.841,226.5 249.574,226.5 " fill="none" id="단위테스트-to-빠른 피드백\n(4장)" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="254.696,226.5,245.696,222.5,249.696,226.5,245.696,230.5,254.696,226.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="146" y="222.5669">극대화</text></g><!--MD5=[6f103d9b1efd1a622cd415af9ccda371]
 link 단위테스트 to 유지 보수성\n(4장)--><g id="link_단위테스트_유지 보수성\n(4장)"><path d="M106.1148,242.744 C146.765,257.711 207.086,279.921 249.834,295.661 " fill="none" id="단위테스트-to-유지 보수성\n(4장)" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="254.696,297.451,247.6321,290.588,250.0039,295.7236,244.8682,298.0954,254.696,297.451" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="146" y="252.5669">극대화</text></g><!--MD5=[67928a7363e09a3296b4d9c77df3bbfb]
 link 단위테스트 to 도메인 모델 및 알고리즘\n(7장)--><g id="link_단위테스트_도메인 모델 및 알고리즘\n(7장)"><path d="M81.9594,208.422 C110.883,182.45 166.42,133.422 216,94.5 C229.466,83.929 244.538,72.874 258.208,63.124 " fill="none" id="단위테스트-to-도메인 모델 및 알고리즘\n(7장)" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="262.402,60.141,252.7493,62.0967,258.3272,63.0385,257.3853,68.6164,262.402,60.141" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26" x="152.5" y="115.5669">처리</text></g><!--MD5=[42b75042efba44468fe98d379027107c]
-link 도메인 모델 및 알고리즘\n(7장) to 복잡도\n(7장)--><g id="link_도메인 모델 및 알고리즘\n(7장)_복잡도\n(7장)"><path d="M302,60.219 C302,74.281 302,91.626 302,106.412 " fill="none" id="도메인 모델 및 알고리즘\n(7장)-to-복잡도\n(7장)" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="302,111.733,306,102.733,302,106.733,298,102.733,302,111.733" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26" x="277.5" y="90.5669">높음</text></g><!--MD5=[de89f07e18c3b7f9a19a42b1a7cba83c]
+link 도메인 모델 및 알고리즘\n(7장) to 복잡도\n(7장)--><g id="link_도메인 모델 및 알고리즘\n(7장)_복잡도\n(7장)"><path d="M302,60.219 C302,74.281 302,91.626 302,106.412 " fill="none" id="도메인 모델 및 알고리즘\n(7장)-to-복잡도\n(7장)" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="302,111.733,306,102.733,302,106.733,298,102.733,302,111.733" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26" x="277.5" y="90.5669">높음</text></g><!--MD5=[5edb46dfd1f3e8703db7873ac475dde0]
 @startuml
 skinparam componentStyle rectangle
 left to right direction
@@ -160,7 +160,7 @@ left to right direction
 
 @enduml
 
-PlantUML version 1.2022.3beta1(Unknown compile time)
+PlantUML version 1.2022.3beta2(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM
