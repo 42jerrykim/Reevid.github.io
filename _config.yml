@@ -259,6 +259,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
+collections_dir: my_collections
 # Collections
 collections:
   bashshell:
