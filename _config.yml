@@ -141,19 +141,19 @@ defaults:
       comments: true
       read_time: true
       show_date: true
-  # # _cycle
-  # - scope:
-  #     path: ""
-  #     type: cycle
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     toc: true  
-  #     toc_sticky: true
-  #     toc_icon: "align-left"
-  #     comments: true
-  # _designpattern
+  # _cycle
+  - scope:
+      path: ""
+      type: cycle
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
+  #_designpattern
   - scope:
       path: ""
       type: designpattern
@@ -237,6 +237,20 @@ defaults:
       comments: true
       read_time: true
       show_date: true
+  # _computerterms
+  - scope:
+      path: ""
+      type: computerterms
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
+      read_time: true
+      show_date: true
 
 category_archive:
   type: liquid
@@ -255,10 +269,10 @@ collections:
     Title: "Testing"
     output: true
     permalink: /collections/:collection/:path/
-#   cycle:
-#     Title: "Cycle"
-#     output: true
-#     permalink: /collections/:collection/:path/
+  cycle:
+    Title: "Cycle"
+    output: true
+    permalink: /collections/:collection/:path/
   designpattern:
     Title: "Design Pattern"
     output: true
@@ -277,6 +291,10 @@ collections:
     permalink: /collections/:collection/:path/
   unittesting:
     Title: "Unit Testing"
+    output: true
+    permalink: /collections/:collection/:path/
+  computerterms:
+    Title: "컴퓨터 용어집"
     output: true
     permalink: /collections/:collection/:path/
 
