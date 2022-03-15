@@ -81,3 +81,7 @@ date: 2022-03-14
 
 > [참고] 시간복잡도 연산 크기 순서
 - O(1) < O(log n) < O(n) < O(nlogn) < O(n<sup>2</sup>) < O(n<sup>3</sup>) < O(2<sup>n</sup>) < O(n!) < O(∞)
+
+# 원문
+
+* [Time Complexity 시간 복잡도](http://www.ktword.co.kr/test/view/view.php?nav=2&no=6212&sh=%EC%8B%9C%EA%B0%84+%EB%B3%B5%EC%9E%A1%EB%8F%84)
