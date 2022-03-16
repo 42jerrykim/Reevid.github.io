@@ -4,9 +4,9 @@ category: Clean Code
 tag:
  - Clean Code
  - Programming
-# header:
-#   teaser: /assets/images/
-# last_modified_at: 2022-01-08
+header:
+  teaser: /assets/images/cleancode.jpg
+last_modified_at: 2022-01-16
 ---
 
 > [There’s No Such Thing as Clean Code](https://www.steveonstuff.com/2022/01/27/no-such-thing-as-clean-code)을 번역하고 추가적인 내용을 적은 글입니다.
