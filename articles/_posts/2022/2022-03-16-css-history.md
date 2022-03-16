@@ -6,7 +6,7 @@ tag:
  - HTML
 ---
 
-* [CSS 역사로 알아보는 CSS가 어려워진 이유](https://velog.io/@teo/css-history-1)
+> 원문 : [CSS 역사로 알아보는 CSS가 어려워진 이유](https://velog.io/@teo/css-history-1)
 
 # 요약
 
