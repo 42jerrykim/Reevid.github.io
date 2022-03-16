@@ -25,4 +25,3 @@ header:
   * Signature Update Interval을 1시간으로, 매 스캔마다 강제 업데이트하게
   * MAPS 및 PUA 등도 가능
 * 현재는 이름이 Microsoft Defender로 변경
-
