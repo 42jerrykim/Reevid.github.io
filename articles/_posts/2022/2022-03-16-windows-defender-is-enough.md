@@ -10,6 +10,9 @@ tag:
  - Program
  - built-in
  - Protection
+header:
+  teaser: /assets/images/Windows-Defender.jpg
+# last_modified_at: 2022-01-08
 ---
 
 > 원문 : [Windows Defender is enough, if you harden it](https://0ut3r.space/2022/03/06/windows-defender/)
