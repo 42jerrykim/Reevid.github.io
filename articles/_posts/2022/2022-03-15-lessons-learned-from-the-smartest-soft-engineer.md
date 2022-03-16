@@ -10,7 +10,7 @@ header:
   teaser: /assets/images/image001.jpg
 ---
 
-> [Lessons learned from the smartest Software Engineer I’ve met](https://svpino.com/lessons-learned-from-the-smartest-software-engineer-ive-met-35895ac9fe3a)의 글을 번역한 글입니다.
+> 원문 : [Lessons learned from the smartest Software Engineer I’ve met](https://svpino.com/lessons-learned-from-the-smartest-software-engineer-ive-met-35895ac9fe3a)
 
 그는 남들과 달랐고, 저는 배움에 목마른 풋내기 개발자였습니다. 돌아보면, 저는 그때와 크게 다르지 않은 것 같네요. 학교에서 보냈던 시간은 지금과 비교하면 그저 시간 낭비였습니다. 지난 십 년을 몇 줄로 요약하는 것은 불가능하지만 한 번 시도해보겠습니다.
 
