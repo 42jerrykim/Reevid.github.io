@@ -12,3 +12,4 @@ grep -r 검색할_문자열 파일이름
 * https://m.blog.naver.com/njuhb/220983631282
 https://daringfireball.net/projects/markdown/
 https://testsmells.org/pages/testsmellexamples.html
+https://www.csharpstudy.com/Mistake/Article/3
