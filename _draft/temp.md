@@ -10,8 +10,4 @@
 grep -r 검색할_문자열 파일이름
 
 * https://m.blog.naver.com/njuhb/220983631282
-https://daringfireball.net/projects/markdown/
-https://testsmells.org/pages/testsmellexamples.html
-https://www.csharpstudy.com/Mistake/Article/3
-https://visualstudiomagazine.com/articles/2022/03/17/net-7-preview-2.aspx?m=1
-https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-2/
+* https://daringfireball.net/projects/markdown/
