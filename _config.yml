@@ -168,6 +168,20 @@ defaults:
       comments: true
       read_time: true
       show_date: true
+  #_baekjoon
+  - scope:
+      path: ""
+      type: baekjoon
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
+      read_time: true
+      show_date: true
   # _cleanarchitecture
   - scope:
       path: ""
@@ -296,6 +310,10 @@ collections:
     permalink: /collections/:collection/:path/
   computerterms:
     Title: "컴퓨터 용어집"
+    output: true
+    permalink: /collections/:collection/:path/
+  baekjoon:
+    Title: "백준"
     output: true
     permalink: /collections/:collection/:path/
 
