@@ -12,3 +12,80 @@ grep -r 검색할_문자열 파일이름
 * https://m.blog.naver.com/njuhb/220983631282
 * https://daringfireball.net/projects/markdown/
 * https://stackoverflow.com/questions/7322503/pinvoke-how-to-free-a-mallocd-string
+
+class Character {
+public:
+	void PrintItems() {
+		for each (int item in _items) {
+			std::cout << "item : " << item << std::endl;
+		}
+	}
+
+	void PushItem(int item) {
+		_items.push_back(item);
+	}
+
+private:
+	std::vector<int> _items;
+
+};
+
+void LoadingThread(std::function<void()> callback) {
+	Sleep(1000);
+	callback();
+}
+
+void main() {
+	Character* pChar = new Character();
+	std::thread* loading;
+
+	pChar->PushItem(1);
+	pChar->PushItem(5);
+	pChar->PushItem(10);
+
+	auto callback = std::bind(&Character::PrintItems, pChar);
+
+	callback();
+
+	loading = new std::thread(LoadingThread, printItems);
+
+	delete pChar;
+	std::cout << "deleted pChar" << std::endl;
+
+	loading->join();
+	if (loading) delete loading;
+
+}
+
+출처: https://eastroot1590.tistory.com/entry/c11-stdsharedptr로-thread-safe-callback-구현하기 [글그리 블로그]
+
+
+void SafePrint(std::weak_ptr<Character> w) {
+	auto pChar = w.lock();
+	if (pChar) {
+		pChar->PrintItems();
+	}
+}
+
+void main() {
+	auto pChar = std::make_shared<Character>();
+	std::thread* loading;
+
+	pChar->PushItem(1);
+	pChar->PushItem(5);
+	pChar->PushItem(10);
+
+	auto callback = std::bind(&SafePrint, std::weak_ptr<Character>(pChar));
+
+	loading = new std::thread(LoadingThread, callback);
+
+	pChar.reset();	// delete pChar
+
+	std::cout << "deleted pChar" << std::endl;
+
+	loading->join();
+	if (loading) delete loading;
+
+}
+/home/abuild/rpmbuild/BUILD/dotnet-launcher-tv-plugin-4.0.81/plugin/src/dotnet-launcher-tv-plugin.cpp
+출처: https://eastroot1590.tistory.com/entry/c11-stdsharedptr로-thread-safe-callback-구현하기 [글그리 블로그]
