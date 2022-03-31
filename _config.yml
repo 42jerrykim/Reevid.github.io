@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jerry Jong-Min Kim
+title: Jerry
 email: reevid7@gmail.com
-description: 김종민의 개발 블로그입니다. .NET, C/C++, Linux, Clean Code 관련 글을 업로드하고 있습니다.
+description: Jerry의 개발 블로그입니다. .NET, C/C++, Linux, Clean Code, Test 관련 글을 업로드하고 있습니다.
 github_username: Reevid
 minimal_mistakes_skin: dark
 search: true
@@ -85,7 +85,7 @@ plugins:
   - jekyll-redirect-from
   
 author:
-  name   : "Jerry Jong-Min Kim"
+  name   : "Jerry"
   avatar : "/assets/images/KakaoTalk_20220210_095101080.png"
   bio    : ".NET, C/C++, Linux, Clean Code, Test 관련 글을 업로드하고 있습니다."
   links:
