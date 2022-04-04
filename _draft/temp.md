@@ -14,7 +14,11 @@ grep -r 검색할_문자열 파일이름
 * https://stackoverflow.com/questions/7322503/pinvoke-how-to-free-a-mallocd-string
 * https://github.com/bgk0018/refactoring-cheat-sheet
 * https://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.pdf
-* 
+* http://www.cheat-sheets.org/
+
+
+
+
 class Character {
 public:
 	void PrintItems() {
