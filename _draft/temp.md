@@ -12,7 +12,9 @@ grep -r 검색할_문자열 파일이름
 * https://m.blog.naver.com/njuhb/220983631282
 * https://daringfireball.net/projects/markdown/
 * https://stackoverflow.com/questions/7322503/pinvoke-how-to-free-a-mallocd-string
-
+* https://github.com/bgk0018/refactoring-cheat-sheet
+* https://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.pdf
+* 
 class Character {
 public:
 	void PrintItems() {
