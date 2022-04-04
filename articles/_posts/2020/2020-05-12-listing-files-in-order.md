@@ -1,5 +1,5 @@
 ---
-title: "[Shell] Listing files by date"
+title: "[Shell] 날짜로 정렬해서 파일 목록 뽑기"
 excerpt_separator: "<!--more-->"
 categories:
   - Shell
@@ -11,8 +11,11 @@ tags:
   - file
   - linux
   - bash
+  - 정렬
+  - 날짜
+  - 파일
+  - 목록
 ---
-
 
 # Method 1: 오래된 파일 부터 보이기
 This is useful if you want to check and erase old files.
