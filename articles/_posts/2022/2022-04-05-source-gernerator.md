@@ -35,3 +35,6 @@ Source Generator를 사용하면 시작의 컨트롤러 검색 단계가 대신 
 # 참고
 * [Introducing C# Source Generators](https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/)
 * [Source Generators](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview)
+https://gist.github.com/TessenR/ab40df2d6e971a8d6e5c6c6295d85d11
+
+https://www.youtube.com/watch?v=052xutD86uI
