@@ -186,5 +186,6 @@ namespace GeneratedDemo
 # 참고
 * [Introducing C# Source Generators](https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/)
 * [Source Generators](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview)
+* [New C# Source Generator Samples](https://devblogs.microsoft.com/dotnet/new-c-source-generator-samples/)
 * [https://gist.github.com/TessenR/ab40df2d6e971a8d6e5c6c6295d85d11](https://gist.github.com/TessenR/ab40df2d6e971a8d6e5c6c6295d85d11)
 * [https://www.youtube.com/watch?v=052xutD86uI](https://www.youtube.com/watch?v=052xutD86uI)
