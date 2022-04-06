@@ -71,7 +71,7 @@ auto deleter = [](tzplatform_context* tc) { tzplatform_context_destroy(tc); };
 std::unique_ptr<tzplatform_context, decltype(deleter)> ptr(context, deleter); // context에 new 없이 그냥 사용한다.
 ```
 
-# Deletor를 등록하는 여러 방법
+# Deleter를 등록하는 여러 방법
 
 ```cpp
 #include <iostream>
