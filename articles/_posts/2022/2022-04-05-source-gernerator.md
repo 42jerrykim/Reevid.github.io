@@ -78,6 +78,10 @@ namespace SourceGenerator
 ```
 ## HelloWorld
 
+### HelloWorldGernerator.cs
+
+생성기 프로젝트를 만들고 아래의 내용을 채워 넣는다.
+
 ```csharp
 // HelloWorldGernerator.cs
 
@@ -132,6 +136,12 @@ namespace HelloWorldGenerated
 }
 ```
 
+`public void Execute(GeneratorExecutionContext context)`에 생성할 코드에 대한 내용을 채운다. `public void Initialize(GeneratorInitializationContext context)`는 syntax and semantic models을 캐싱하여 사용할 수 있다. 이는 `Execute()`가 한 번만 불리는 것이 아니라 여러 번 불릴 수 있기 때문이라고 추측한다.
+
+### UseHelloWorldGernerator
+
+생성된 코드를 사용할 수 있는 프로젝트를 새로 생성한다. 본 글에서는 Console Project를 가정한다.
+
 ```csharp
 // UseHelloWorldGernerator.cs
 namespace GeneratedDemo
@@ -146,6 +156,8 @@ namespace GeneratedDemo
     }
 }
 ```
+
+컴파일 과정에서 생성될 `HelloWorldGenerated`를 사용하는 코드를 작성한다.
 
 ```csharp
 // Program.cs
@@ -165,6 +177,11 @@ namespace GeneratedDemo
     }
 }
 ```
+
+# 팁
+
+* 사용하는 코드는 바로 컴파일 되어 동작한다.
+* 생성기 코드를 수정하는 경우에는 전체 재빌드를 해주어야 잘 동작한다.
 
 # 참고
 * [Introducing C# Source Generators](https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/)
