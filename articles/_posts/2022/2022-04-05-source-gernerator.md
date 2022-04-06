@@ -12,29 +12,162 @@ header:
   teaser: https://media.vlpt.us/images/jinuku/post/e62f8f63-4001-46f9-b811-dc6f62f0828e/40cc3e52-745d-48b8-8a09-02c21efc36e5.png
 ---
 
+Source Generators를 사용하면 C# 개발자가 컴파일되는 사용자 코드를 검사(Inspect)할 수 있다. Source Generators는 컴파일 과정중에 새 C# 코드를 추가 할 수 있다. 이러한 방식으로 컴파일 과정둥에 동작하는 코드가 있다면, 해당 코드는 프로그램을 검사(Inspect)하고 새로운 코드를 생성하여 기존에 있는 코드와 같이 컴파일 되도록 한다.
+
+Source Generators는 개발자에게 새로운 두가지에 기능을 제공한다.
+
+1. 코드에서 컴파일된 객체(compilation object)를 검색(Retrieve) 할 수 있다. 해당 객체는 검사 할 수 있으며 syntax and semantic models과 함께 동작하는 코드를 작성 할 수 있다.
+2. 컴파일 과정중에 새로운 객체를 추가 할 수 있다. 다른 말로 표현하면, 컴파일 과정중에 새로운 소스코드를 추가할 수 있다는 얘기이다.
+
+
+Source Generators는 아래의 그림처럼 동작한다.
+|![](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/media/source-generators/source-generator-visualization.png#lightbox)|
+|:--:|
+|Source Generators 동작 다이어그램|
+
 # 일반적인 적용 방법
 
 * 런타임 리플렉션
 * Juggling MSBuild tasks.
 * Intermediate Language (IL) weaving (본 글에서는 다루지 않는다).
 
-## Runtime reflection
+# 예제 코드
 
-런타임 리플렉션은 오래 전에 .NET에 추가된 강력한 기술입니다. 이를 사용하는 수많은 시나리오가 있습니다. 일반적인 시나리오는 앱이 시작될 때 사용자 코드의 일부 분석을 수행하고 해당 데이터를 사용하여 작업을 생성하는 것입니다.
+## 기본적인 코드
+```csharp
+<Project Sdk="Microsoft.NET.Sdk">
 
-예를 들어 ASP.NET Core 웹 서비스가 처음 실행되면 리플렉션을 사용하여 정의한 구문을 검색하여 컨트롤러 및 razor 페이지와 같은 것을 **연결**할 수 있습니다. 이렇게 하면 강력한 추상화로 간단한 코드를 작성할 수 있지만 런타임에 성능 저하가 발생합니다. 웹 서비스 또는 앱이 처음 시작될 때 코드에 대한 정보를 검색하는 모든 런타임 리플렉션 코드 실행이 완료될 때까지 요청을 수락할 수 없습니다. 이 성능 저하는 크지는 않지만 자체 앱에서 개선할 수 없는 고정 비용입니다.
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
 
-Source Generator를 사용하면 시작의 컨트롤러 검색 단계가 대신 컴파일 시간에 발생할 수 있습니다. 생성기는 소스 코드를 분석하고 앱을 **연결**하는 데 필요한 코드를 내보낼 수 있습니다. Source Generator를 사용하면 오늘 런타임에 발생하는 작업이 컴파일 시간으로 푸시될 수 있으므로 시작 시간이 더 빨라질 수 있습니다.
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.1" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 
-## MSBuild 작업 저글링
+</Project>
+```
 
-원본 생성기는 런타임 시 리플렉션에 제한되지 않도록 성능을 개선하여 형식도 검색할 수 있습니다. 일부 시나리오에서는 컴파일에서 데이터를 검사할 수 있도록 MSBuild C# 작업(CSC라고 함)을 여러 번 호출합니다. 짐작하시겠지만, 컴파일러를 두 번 이상 호출하면 앱을 구축하는 데 걸리는 총 시간이 영향을 받습니다. 원본 생성기는 일부 성능 혜택을 제공할 뿐만 아니라 도구가 올바른 추상화 수준에서 작동할 수 있도록 해주므로, 이와 같이 MSBuild 작업을 저글링할 필요가 없도록 원본 생성기를 사용할 방법을 조사하고 있습니다.
+`netstandard2.0` TFP을 사용한다. `Microsoft.CodeAnalysis.Analyzers` and `Microsoft.CodeAnalysis.CSharp`을 PackageReference에 추가 한다.
 
-원본 생성기가 제공할 수 있는 또 다른 기능은 컨트롤러와 razor 페이지 간의 ASP.NET Core 라우팅 작동 방식과 같은 일부 "문자열 형식" API의 사용을 방해합니다. 원본 생성기를 사용하면 컴파일 시간 세부 정보로 생성되는 데 필요한 문자열로 라우팅을 강력하게 입력할 수 있습니다. 이렇게 하면 잘못 입력된 문자열 리터럴이 올바른 컨트롤러에 도달하지 않는 요청으로 이어지는 횟수가 줄어듭니다.
+아래와 같이 SourceGenerator을 사용할 클래스를 생성한다. SourceGenerator는 [Microsoft.CodeAnalysis.ISourceGenerator](https://docs.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isourcegenerator)을 상속해서 사용 할 수 있다.
+
+```csharp
+using Microsoft.CodeAnalysis;
+
+namespace SourceGenerator
+{
+    [Generator]
+    public class HelloSourceGenerator : ISourceGenerator
+    {
+        public void Execute(GeneratorExecutionContext context)
+        {
+            // Code generation goes here
+        }
+
+        public void Initialize(GeneratorInitializationContext context)
+        {
+            // No initialization required for this one
+        }
+    }
+}
+```
+## HelloWorld
+
+```csharp
+// HelloWorldGernerator.cs
+
+using System.Text;
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.Text;
+
+namespace SourceGeneratorSamples
+{
+    [Generator]
+    public class HelloWorldGenerator : ISourceGenerator
+    {
+        public void Execute(GeneratorExecutionContext context)
+        {
+            // begin creating the source we'll inject into the users compilation
+            StringBuilder sourceBuilder = new StringBuilder(@"
+using System;
+namespace HelloWorldGenerated
+{
+    public static class HelloWorld
+    {
+        public static void SayHello() 
+        {
+            Console.WriteLine(""Hello from generated code!"");
+            Console.WriteLine(""The following syntax trees existed in the compilation that created this program:"");
+");
+
+            // using the context, get a list of syntax trees in the users compilation
+            IEnumerable<SyntaxTree> syntaxTrees = context.Compilation.SyntaxTrees;
+
+            // add the filepath of each tree to the class we're building
+            foreach (SyntaxTree tree in syntaxTrees)
+            {
+                sourceBuilder.AppendLine($@"Console.WriteLine(@"" - {tree.FilePath}"");");
+            }
+
+            // finish creating the source to inject
+            sourceBuilder.Append(@"
+        }
+    }
+}");
+
+            // inject the created source into the users compilation
+            context.AddSource("helloWorldGenerated", SourceText.From(sourceBuilder.ToString(), Encoding.UTF8));
+        }
+
+        public void Initialize(GeneratorInitializationContext context)
+        {
+            // No initialization required
+        }
+    }
+}
+```
+
+```csharp
+// UseHelloWorldGernerator.cs
+namespace GeneratedDemo
+{
+    public static class UseHelloWorldGenerator
+    {
+        public static void Run()
+        {
+            // The static call below is generated at build time, and will list the syntax trees used in the compilation
+            HelloWorldGenerated.HelloWorld.SayHello();
+        }
+    }
+}
+```
+
+```csharp
+// Program.cs
+
+using System;
+
+namespace GeneratedDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Run the various scenarios
+            Console.WriteLine("Running HelloWorld:\n");
+            UseHelloWorldGenerator.Run();
+        }
+    }
+}
+```
 
 # 참고
 * [Introducing C# Source Generators](https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/)
 * [Source Generators](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview)
-https://gist.github.com/TessenR/ab40df2d6e971a8d6e5c6c6295d85d11
-
-https://www.youtube.com/watch?v=052xutD86uI
+* [https://gist.github.com/TessenR/ab40df2d6e971a8d6e5c6c6295d85d11](https://gist.github.com/TessenR/ab40df2d6e971a8d6e5c6c6295d85d11)
+* [https://www.youtube.com/watch?v=052xutD86uI](https://www.youtube.com/watch?v=052xutD86uI)
