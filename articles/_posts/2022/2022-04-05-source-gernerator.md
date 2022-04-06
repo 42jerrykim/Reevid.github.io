@@ -41,7 +41,7 @@ Source Generators는 아래의 그림처럼 동작한다.
 # 예제 코드
 
 ## 기본적인 코드
-```csharp
+```csproj
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
