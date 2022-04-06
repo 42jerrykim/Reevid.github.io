@@ -185,7 +185,12 @@ namespace GeneratedDemo
 
 # 참고
 * [Introducing C# Source Generators](https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/)
+* [Source Generators Cookbook](https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md)
 * [Source Generators](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview)
+* [SourceGenerators Sample](https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators)
+* [https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md](https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md)
 * [New C# Source Generator Samples](https://devblogs.microsoft.com/dotnet/new-c-source-generator-samples/)
 * [https://gist.github.com/TessenR/ab40df2d6e971a8d6e5c6c6295d85d11](https://gist.github.com/TessenR/ab40df2d6e971a8d6e5c6c6295d85d11)
 * [https://www.youtube.com/watch?v=052xutD86uI](https://www.youtube.com/watch?v=052xutD86uI)
+* [C# - Source Generator 소개](https://www.sysnet.pe.kr/2/0/12223)
+* [Solving the source generator 'marker attribute' problem - Part 2](https://andrewlock.net/creating-a-source-generator-part-8-solving-the-source-generator-marker-attribute-problem-part2/)
