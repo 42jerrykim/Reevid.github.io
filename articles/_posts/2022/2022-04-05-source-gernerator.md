@@ -4,8 +4,7 @@ category: DotNET
 tag:
 - C#
 - .NET
-- DotN
-- inspect
+- DotNET
 - Inspect
 - Object
 - Syntex
