@@ -85,7 +85,7 @@ public:
     }
 };
 
-auto d = [] ( go * gp )
+auto d = [](go * gp)
 {
     delete gp;
     cout << "deletor done.\n";
@@ -94,29 +94,29 @@ auto d = [] ( go * gp )
 class go_de
 {
 public:
-    void operator() ( go* g )
+    void operator() (go* g)
     {
-        d ( g );
+        d (g);
     }
 };
 
 int main()
 {
     {
-        unique_ptr < go, go_de > b{ new go{} };//1
+        unique_ptr<go, go_de> b{ new go{} };//1
     }
     {
-        //unique_ptr < go, decltype (d) > b{ new go{}}; complie error //2
-        unique_ptr < go, decltype (d) > a{ new go{}, d };//3
+        //unique_ptr<go, decltype(d)> b{ new go{}}; complie error //2
+        unique_ptr<go, decltype(d)> a{ new go{}, d };//3
     }
     {
-        unique_ptr < go, function<void(go*) > > a{ new go{}, d };//4
-        //i.e. unique_ptr < go, function<void(go*) > > a{ new go{}, [](go*gp) {delete gp;cout << "deletor done.\n"; }};
+        unique_ptr<go, function<void(go*)>> a{ new go{}, d };//4
+        //i.e. unique_ptr<go, function<void(go*)>> a{ new go{}, [](go* gp){ delete gp; cout << "deletor done.\n"; }};
     }
-    system ( "pause" );
     return 0;
 }
 ```
+
 # 참고
 
 * [방법: unique_ptr 인스턴스 만들기 및 사용](https://docs.microsoft.com/ko-kr/cpp/cpp/how-to-create-and-use-unique-ptr-instances)
