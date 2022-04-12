@@ -1,7 +1,7 @@
 ---
 title: "[Draft][C#] MemoryMappedFile - 여러 프로세스에서 메모리에 매핑된 파일에 접근하자"
 categories: [DotNET]
-tags: [MemoryMappedFile, C#, Programming]
+tags: [MemoryMappedFile, CSharp, Programming]
 ---
 
 # MemoryMappedFile 설명
