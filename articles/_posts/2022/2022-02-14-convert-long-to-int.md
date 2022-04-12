@@ -2,7 +2,7 @@
 title: "[C#] long -> int 변환하기"
 category: DotNET
 tag:
-- C#
+- CSharp
 - .NET
 - DotNET
 - Convert

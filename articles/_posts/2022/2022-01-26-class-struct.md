@@ -3,7 +3,7 @@ title: "[C#] 클래스와 구조체 간의 선택"
 category:
   - DotNET
 tag:
-  - C#
+  - CSharp
   - .NET
   - Class
   - Struct

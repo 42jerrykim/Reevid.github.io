@@ -2,7 +2,7 @@
 title: "[C#] Source Generators"
 category: DotNET
 tag:
-- C#
+- CSharp
 - .NET
 - DotNET
 - Inspect
