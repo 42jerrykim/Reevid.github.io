@@ -1,10 +1,10 @@
 ---
 title: "[C#] Source Generators"
-category: DotNET
+category: .NET
 tag:
 - CSharp
 - .NET
-- DotNET
+- .NET
 - Inspect
 - Object
 - Syntex

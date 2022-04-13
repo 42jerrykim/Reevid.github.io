@@ -1,12 +1,12 @@
 ---
 title: "[C#] string 객체 사용에서 흔히 하는 실수 "
 category:
-  - DotNET
+  - .NET
 tag:
   - CSharp
   - .NET
   - GarvageCollection
-  - DotNET
+  - .NET
   - Programming
   - String
   - 실수

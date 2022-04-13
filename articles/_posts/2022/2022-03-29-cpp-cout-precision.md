@@ -1,6 +1,6 @@
 ---
 title: "[C/C++] C언어, C++ 소수점 자릿수 조절하기"
-category: CPP
+category: C/C++
 tag:
  - C/C++
  - cout

@@ -1,14 +1,13 @@
 ---
 title: "[C#] 클래스와 구조체 간의 선택"
 category:
-  - DotNET
+  - .NET
 tag:
   - CSharp
-  - .NET
   - Class
   - Struct
   - GarvageCollection
-  - DotNET
+  - .NET
 header:
  teaser: https://miro.medium.com/max/712/1*GijseQ3xYJ5OT2t-PRQFXA.png
 ---
