@@ -1,7 +1,7 @@
 ---
 title: "[C/C++] define 문을 namespace안에 선언하는건 의미가 없다."
 categories:
-  - CPP
+  - C/C++
 tags:
   - Language
   - C/C++
