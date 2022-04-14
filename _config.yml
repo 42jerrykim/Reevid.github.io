@@ -104,6 +104,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/reevidkim/"
+    - label: "Mail"
+      icon: "fab fa-solid fa-envelope"
+      url: "mailto:reevid7@gmail.com"
 
 defaults:
   # _posts
