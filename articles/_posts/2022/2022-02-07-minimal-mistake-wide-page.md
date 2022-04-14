@@ -1,9 +1,9 @@
 ---
-title: "[MinimalMistakes] Minimal Mistakes 페이지 넓게 보기"
-category: [MinimalMistakes, Jekyll]
+title: "[Minimal Mistakes] Minimal Mistakes 페이지 넓게 보기"
+category: [Minimal Mistakes, Jekyll]
 tag:
  - Jekyll
- - MinimalMistakes
+ - Minimal Mistakes
  - Theme
 header:
  teaser: /assets/images/2022-02-09-214522.png
