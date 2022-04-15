@@ -6,6 +6,7 @@ categories: [Ubuntu,Linux]
 tags: [Ubuntu, Linux, IP, setup, setting, Shell]
 redirect_from:
   - /2019/02/26/
+last_modified_at : 2022-04-15
 ---
 
 
