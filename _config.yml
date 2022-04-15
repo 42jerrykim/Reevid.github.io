@@ -157,6 +157,8 @@ defaults:
       toc_sticky: true
       toc_icon: "align-left"
       comments: true
+      read_time: true
+      show_date: true
   #_designpattern
   - scope:
       path: ""
