@@ -1,5 +1,5 @@
 ---
-title: "[Draft]Docker networking overview"
+title: "Docker networking overview"
 description: "Docker networking overview"
 categories: [Docker]
 tags: [Draft, Docker, Container, Network]
