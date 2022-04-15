@@ -1,9 +1,9 @@
 ---
 
-title: "Change Ubuntu 14.04 from DHCP to Static IP Addredd"
+title: "[Linux] Change Ubuntu 14.04 from DHCP to Static IP Addredd"
 description: "Change Ubuntu 14.04 from DHCP to Static IP Addredd"
-categories: [Ubuntu]
-tags: [Ubuntu, linux, IP, setup, setting, Shell]
+categories: [Ubuntu,Linux]
+tags: [Ubuntu, Linux, IP, setup, setting, Shell]
 redirect_from:
   - /2019/02/26/
 ---
