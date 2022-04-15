@@ -2,11 +2,11 @@
 title: "[C#] string 객체 사용에서 흔히 하는 실수 "
 category:
   - .NET
+  - C#
 tag:
-  - CSharp
+  - C#
   - .NET
   - GarvageCollection
-  - .NET
   - Programming
   - String
   - 실수

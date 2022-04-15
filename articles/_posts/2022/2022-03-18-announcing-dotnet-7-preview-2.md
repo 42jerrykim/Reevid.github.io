@@ -3,14 +3,13 @@ title: "[.NET] .NET 7 Preview 2 소개 - 더 새로운 경험"
 category:
   - .NET
 tag:
-  - CSharp
+  - C#
   - .NET
   - GarvageCollection
-  - .NET
   - Programming
   - NativeAOT
   - RegEx
-  - .NET new
+  - dotnet new
 header:
   teaser: https://media.vlpt.us/images/jinuku/post/e62f8f63-4001-46f9-b811-dc6f62f0828e/40cc3e52-745d-48b8-8a09-02c21efc36e5.png
 # last_modified_at: 2022-01-16

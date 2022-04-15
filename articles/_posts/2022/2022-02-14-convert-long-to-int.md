@@ -1,8 +1,10 @@
 ---
 title: "[C#] long -> int 변환하기"
-category: .NET
+category: 
+- .NET
+- C#
 tag:
-- CSharp
+- C#
 - .NET
 - .NET
 - Convert

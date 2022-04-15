@@ -3,7 +3,7 @@ title: "[C#] Runtime에 따른 Finalizer 호출 차이"
 categories:
   - .NET
 tags:
-  - CSharp
+  - C#
   - Distructor
   - Class
   - GC
