@@ -1,7 +1,7 @@
 ---
 title: "[C/C++] define 문을 namespace안에 선언하는건 의미가 없다."
 categories:
-  - C/C++
+  - "C/C++"
 tags:
   - Language
   - C/C++
@@ -15,7 +15,8 @@ tags:
 # define 문을 namespace안에 선언하는건 의미가 없다.
 
 아래의 코드 처럼 define을 namespace에 선언이 되어 있다고 생각해보자. 아마 개발자는 define을 namespace로 감싸서 해당 namespace 안에서만 사용하도록 경계를 나누고 싶었던것 같다.
-```
+
+```cpp
 namespace MyNamespace
 {
   #define SOME_VALUE 0xDEADBABE
@@ -28,7 +29,7 @@ namespace MyNamespace
 
 따라서 상수를 namespace와 같이 경계를 나누어서 사용하려는 경우 아래와 같이 Preprocessor가 아닌 구분을 사용해야 한다.
 
-```
+```cpp
 namespace MyNamespace
 {
   const unsigned int SOME_VALUE = 0xDEADBABE;
