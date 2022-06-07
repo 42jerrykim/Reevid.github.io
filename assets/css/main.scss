@@ -23,8 +23,8 @@ div.highlighter-rouge{
     line-height: 1.4;
 }
 
-code.highlighter-rouge {
-    background:  mix($background-color, $primary-color, 80%);
+code.language-plaintext.highlighter-rouge {
+    background: mix($background-color, $primary-color, 80%);
     padding-top: 0rem;
     padding-bottom: 0rem;
     font-size: 1em;
