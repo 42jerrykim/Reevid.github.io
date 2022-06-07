@@ -12,7 +12,7 @@ $max-width: 100%;
 
 $serif      : Georgia, Times, serif;
 $sans-serif : "Nanum Gothic", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace  : D2Coding, 'D2 coding', Monaco, Consolas, "Lucida Console", monospace;
+$monospace  : Consolas, D2Coding, 'D2 coding', Monaco, "Lucida Console", monospace;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
