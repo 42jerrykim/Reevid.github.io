@@ -12,13 +12,13 @@ header:
   teaser: 
 ---
 
-Linux has several virtual filesystems that serve various purposes. DebugFS, SecurityFS, PipeFS, and SockFS are four important filesystems (in addition to others discussed on this site).
+리눅스에는 다양한 목적을 가지고 있는 가상 파일 시스템을 가지고 있다. DebugFS, SecurityFS, PipeFS, SockFS는 중요한 파일 시스템이다.
 
-DebugFS
+# DebugFS
 
-DebugFS is a RAM-based filesystem that is used for debugging. This filesystem is a lot like ProcFS and SysFS, but instead displays debugging information. Like many other RAM-based filesystems, DebugFS is a kernel-user interface. This filesystem can be mounted using this command in a terminal - "mount -t debugfs none /sys/kernel/debug".
+DebugFS는 디버깅을 위해서 사용되며 램 기반에 파일 시스템이다. DebugFS는 ProcFS, SysFS와 비슷한 점이 많다. 그러나 디버그 정보를 표사한다는것이 다르다. 다른 램기반의 파일시스템처럼 DebugFS는 kernel-user interface이다. DebugFS는 터미널에 "mount -t debugfs none /sys/kernel/debug" 명령어를 통해서 마운트 할 수 있다.
 
-If you want DebugFS to be mounted automatically on every system boot, add this line to /etc/fstab (without the quotes) - "debugfs /sys/kernel/debug debugfs defaults 0 0".
+만약에 시스템이 부팅될때 DebugFS가 마운트하려면 `/etc/fstab`에 `debugfs /sys/kernel/debug debugfs defaults 0 0`을 추가 한다.
 
 When configuring the Linux kernel, the name of this feature (DebugFS) is called "CONFIG_DEBUG_FS". Enabling this enables DebugFS.
 
@@ -71,4 +71,5 @@ TIP: If you want a list of all of the mounted filesystems, both "real" and virtu
 In Linux and Unix, everything is a file descriptor or a process. Now, you can probably see that better considering that networking and pipes require a filesystem.
 
 # 원문
+
 * [PipeFS, SockFS, DebugFS, and SecurityFS](https://www.linux.org/threads/pipefs-sockfs-debugfs-and-securityfs.9638/)
