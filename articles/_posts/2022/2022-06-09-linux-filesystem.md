@@ -90,3 +90,4 @@ Virtual Filesystem과 Pseudo Filesystem은 다른것인가?
 * [Linux Security Module Usage - www.kernel.org](https://www.kernel.org/doc/html/v4.14/admin-guide/LSM/index.html)
 * [[Linux Kernel] 가상 파일시스템이란 (VFS, Virtual Filesystem Switch) - hyeyoo.com](https://hyeyoo.com/84)
 * [How pipes work in Linux - unix.stackexchange.com](https://unix.stackexchange.com/questions/148401/how-pipes-work-in-linux)
+* [[LinuxKernel]파일시스템, 가상 파일시스템, 슈퍼블록, 아이노드, 덴트리, 파일(FileSystem, VFS, SuperBlock, Inode, Dentry, File) - hyoje420.tistory.com](https://hyoje420.tistory.com/53)
