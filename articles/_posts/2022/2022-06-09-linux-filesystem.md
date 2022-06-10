@@ -1,5 +1,5 @@
 ---
-title: "[Linux] File Systems 종류- DebugFS, SecurityFS, PipeFS, SockFS"
+title: "[Linux] File System 종류- DebugFS, SecurityFS, PipeFS, SockFS"
 category: Linux
 tags:
 - Linux
@@ -15,6 +15,9 @@ tags:
 - Mediator
 - Compatibility
 - Port
+- VFS
+- Virtual Filesystem Switch
+- Virtual Filesystem
 
 header:
   teaser: https://www.linux.org/attachments/securityfs-png.1299/
@@ -24,7 +27,7 @@ header:
 
 > 아래의 내용은 [PipeFS, SockFS, DebugFS, and SecurityFS](https://www.linux.org/threads/pipefs-sockfs-debugfs-and-securityfs.9638/)을 보고 작성한 글이다.
  
-리눅스에는 다양한 목적을 가지고 있는 가상 파일 시스템을 가지고 있다. 다른것들도 언급하겠지만 DebugFS, SecurityFS, PipeFS, SockFS는 중요한 파일 시스템이다.
+리눅스에는 다양한 목적을 가지고 있는 가상 파일 시스템을 가지고 있다. 다른 것들도 언급하겠지만 DebugFS, SecurityFS, PipeFS, SockFS는 중요한 파일 시스템이다.
  
 # DebugFS
 
