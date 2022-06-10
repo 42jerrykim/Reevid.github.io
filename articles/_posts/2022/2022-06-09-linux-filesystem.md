@@ -20,7 +20,7 @@ header:
   teaser: https://www.linux.org/attachments/securityfs-png.1299/
 ---
 
-리눅스에는 다양한 목적을 가지고 있는 가상 파일 시스템을 가지고 있다. 파일 시스템을 사용하든 간에 관계없이 프로그램을 작성할 땐 open, read, write, close와 같은 시스템 호출을 사용해서 이 모든 걸 처리할 수 있다. 지금은 이게 모두 당연하지만, 예전에는 그렇지 않았다. 실제 파일 시스템이 무엇이냐에 관계없이 공통된 인터페이스(open/read/write/close 등)로 접근하는 것은 매우 어려운 일이었다. 이렇듯 리눅스에서, 실제 파일시스템에 관계없이 공통된 인터페이스로 파일시스템에 접근하도록 하는 계층을 가상 파일시스템(Virtual Filesystem Switch, VFS)이라고 한다.
+리눅스에는 다양한 목적을 가지고 있는 가상 파일 시스템을 가지고 있다. 파일 시스템을 사용하든 간에 관계없이 프로그램을 작성할 땐 open, read, write, close와 같은 시스템 호출을 사용해서 이 모든 걸 처리할 수 있다. 지금은 이게 모두 당연하지만, 예전에는 그렇지 않았다. 실제 파일 시스템이 무엇이냐에 관계없이 공통된 인터페이스(open/read/write/close 등)로 접근하는 것은 매우 어려운 일이었다. 이렇듯 리눅스에서, 실제 파일시스템과 관계없이 공통된 인터페이스로 파일시스템에 접근하도록 하는 계층을 가상 파일시스템(Virtual Filesystem Switch, VFS)이라고 한다.
 
 > 아래의 내용은 [PipeFS, SockFS, DebugFS, and SecurityFS](https://www.linux.org/threads/pipefs-sockfs-debugfs-and-securityfs.9638/)을 보고 작성한 글이다.
  
@@ -28,7 +28,7 @@ header:
  
 # DebugFS
 
-DebugFS는 디버깅을 위해서 사용되며 램 기반에 파일 시스템이다. DebugFS는 ProcFS, SysFS와 비슷한 점이 많다. 그러나 디버그 정보를 표사한다는 것이 다르다. 다른 램 기반(RAM-based)의 파일시스템처럼 DebugFS는 kernel-user interface이다. DebugFS는 터미널에 `mount -t debugfs none /sys/kernel/debug`명령어를 통해서 마운트 할 수 있다.
+DebugFS는 디버깅을 위해서 사용되며 램 기반에 파일 시스템이다. DebugFS는 ProcFS, SysFS와 비슷한 점이 많다. 그러나 디버그 정보를 표시한다는 것이 다르다. 다른 램 기반(RAM-based)의 파일시스템처럼 DebugFS는 커널과 유저 영역 사이를 연결하는 인터페이스(kernel-user interface) 역활을 한다. DebugFS는 터미널에 `mount -t debugfs none /sys/kernel/debug`명령어를 통해서 마운트 할 수 있다.
 
 만약에 시스템이 부팅될 때 DebugFS가 마운트하려면 `/etc/fstab`에 `debugfs /sys/kernel/debug debugfs defaults 0 0`을 추가 한다.
 
@@ -79,7 +79,7 @@ SockFS는 소켓/포트(Socket/Port) 및 호환성 레이어(Compatibility Layer
 
 # 추가로 고민할 내용
 
-Virtual Filesystems과 Pseudo Filesystems은 다른것인가?
+Virtual Filesystem과 Pseudo Filesystem은 다른것인가?
 
 # 참고
 
