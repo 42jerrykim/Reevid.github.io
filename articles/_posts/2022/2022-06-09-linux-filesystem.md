@@ -1,7 +1,7 @@
 ---
 title: "[Linux] File Systems 종류- DebugFS, SecurityFS, PipeFS, SockFS"
 category: Linux
-Tag:
+tags:
 - Linux
 - FileSystem
 - DebugFS
