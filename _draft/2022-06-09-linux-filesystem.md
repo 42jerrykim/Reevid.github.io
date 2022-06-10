@@ -49,8 +49,6 @@ DebugFS는 아래와 같은 다양한 시스템콜(system-calls)을 가지고 �
 
 SecurityFS은 커널 보안 모듈을 위한 메모리 안에 있는 가상 파일 시스템이다. 커널 보안 모듈은 보안 정책과 데이터를 가지고 있다. 유저 영역에서 SecurityFS를 바라보념 SysFS의 일부로 보인다. SecurityFS은 `/sys/kernel/security/`으로 마운트 된다. 몇몇 보안 모듈은 보안 모듈을 설정하기 위해서 `/sys/kernel/security/`에 파일을 읽고 쓴다. 리눅스 보안 모듈([LSM](https://www.kernel.org/doc/html/v4.14/admin-guide/LSM/index.html))은 가상 파일 시스템(pseudo-filesystem)에 데이터를 쓰고 읽어야 하기 때문에 SecurityFS가 이미 마운트 된 경우가 아니라면 수동으로 마운트한다.
 
-The LSMs make a folder on the root of SecurityFS with their name on it. For example, AppArmor would make a directory titled "apparmor" at /sys/kernel/security/.
-
 LSM은 SecurityFS의 루트 폴더에 특정 이름으로 폴더를 만든다. 예를 들어 AppArmor는 `apparmor`란 이름으로 `/sys/kernel/security/`에 폴더를 만든다.
 
 |![링크]("https://www.linux.org/attachments/securityfs-png.1299/")|
@@ -66,8 +64,6 @@ PipeFS의 목적에 대해서 많은 의문을 가질수 있다. 유닉스의 �
 # SockFS
 
 SockFS는 소켓/포트(socket/port) 및 호환성 레이어(compatibility layer)에 대한 정보를 저장하기 위한 RAM에 위치한 가상 파일 시스템이다. SockFS는 소켓 파일 시스템(Socket FileSystem)이라고 불리기도 한다. 현재, SockFS는 호환성 계층의 역활을 하기 때문에 `write()` 시스템콜은 데이터를 소켓/포트(FTP가 21번 포트를 사용하는것처럼)에 쓴다. 여기서 중요한것은 이러한 소켓들은 TCP나 UDP 통신에 사용되며 `write()` 명령어는 하드 디스크같은 파일 시스템에서 사용하는 명령어랑 같다는 것이다. SockFS는 `write()` 시스템콜을 통해서 데이터를 쓸때 소켓과 호환할 수 있도록 변환해주기 때문에 중요하다. 따라서 `write()`는 소켓과 직접 상호작용하지 않지만 SockFS가 중재자(mediator)역활을 하기 때문에 상호작용 할 수 있다.
-
-TIP: If you want a list of all of the mounted filesystems, both "real" and virtual, type - cat /proc/filesystems. The filesystems will be listed in the second column.
 
 > TIP : 시스템에 마운트된 모든 파일 시스템(real and virtual)을 보고 싶다면 `cat /proc/filesystems`을 사용한다.
 
