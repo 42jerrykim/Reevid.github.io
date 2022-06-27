@@ -11,14 +11,14 @@ tags:
 - Engine
 - 미디어
 header:
-  teaser: /assets\images\2022-06-07-101710.png
+  teaser: /assets/images/2022-06-07-101710.png
 ---
 
 워드프레스에 조인한 CC Search를 리브랜딩한 검색엔진이다. 무료로 사용가능한 이미지/사진, 오디오(음악,팟캐스트,샘플링 등) 등의 콘텐츠를 검색할 수 있다.
 
 # 스크린샷
 
-|![](/assets\images\2022-06-07-101710.png)|
+|![](/assets/images/2022-06-07-101710.png)|
 |:---:|
 |스크린샷|
 
