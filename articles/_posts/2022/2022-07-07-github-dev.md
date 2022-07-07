@@ -6,14 +6,14 @@ tag:
 - IDE
 - Web
 header:
-  teaser: /assets/images/2022-07-07-134900.png
+  teaser: /assets/images/2022-07-07-135907.png
 ---
 
 아는 사람만 알고 있다는 숨어있는(?) github.dev 서비스를 알고 있으신가요?
 
 # 소개
 
-|![](/assets/images/2022-07-07-134900.png)|
+|![](/assets/images/2022-07-07-135907.png)|
 |:---:|
 |웹 브라우저에서 사용할 수 있는 IDE|
 
