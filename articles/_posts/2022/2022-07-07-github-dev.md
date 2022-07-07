@@ -25,4 +25,3 @@ github.com의 특정 repository에서 키보드의 `.` 키를 누르면 IDE로 �
 
 * [https://github.dev/](https://github.dev/)
 * [https://docs.github.com/en/codespaces/the-githubdev-web-based-editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor)
-
