@@ -1,3 +1,5 @@
+https://medium.com/chegg/best-practices-for-rest-api-df7417ea07e5
+
 > I am the one who connects the two sides of a software
 > And
 > I respond back whenever someone HITS me
