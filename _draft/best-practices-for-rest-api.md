@@ -32,11 +32,9 @@ REST는 performance, scalability, simplicity, modifiability, visibility, portabi
 
 # Rest API 모범 사례
 
+앞으로의 내용은 개발자와 테스터가 REST API를 개발하거나 테스트 할 때 좋은 사례이다.
 
-
-I will highlight best practices for both developers and testers while developing and testing Rest API.
-
-API Endpoint Naming
+# API Endpoint Naming
 
 You should refer to the endpoints’ names by using nouns, and their actions type by the method.
 
