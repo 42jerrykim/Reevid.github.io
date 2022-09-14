@@ -34,20 +34,20 @@ REST는 performance, scalability, simplicity, modifiability, visibility, portabi
 
 앞으로의 내용은 개발자와 테스터가 REST API를 개발하거나 테스트 할 때 좋은 사례이다.
 
-# API Endpoint Naming
+## API Endpoint 이름 정하기
 
-You should refer to the endpoints’ names by using nouns, and their actions type by the method.
+사용할때는 명사로 API Endpoint의 이름을 침조하고 동작하는 타입은 함수로 정의 되어야 한다.
 
-If you use verbs with nouns like ‘CreateUser’, ‘DeleteUser’ and ‘GetUser’, then it will create a lot of endpoints.
+만약에 ‘CreateUser’, ‘DeleteUser’ and ‘GetUser’와 같은 명사를 사용한다면 연관된 많은 endpoint가 생성될 것이다.
 
-Let’s suppose you have the ‘/users’ endpoint, then you should specify like this:
+‘/users’라는 Endpoint를 가지고 있다고 가정해보다. 그러면 아래처럼 구체화 할 수 있을것이다.
 
-    To create a user — /users with post action
-    To fetch user details — /users with get action
+* 사용자 생성 : /users with post action
+* 사용자 정보 확인 : /users with get action
 
-It will also help reduce the maintenance of the Documentation for API endpoints.
+또한 이것은 API Endpoint 문서를 유지 보수의 노력을 줄이는데도 도움을 준다.
 
-Exposing Minimum Permissions and Using Correct Methods
+## 최소한의 권한과 올바른 메소드 사용
 
 You should always give the minimum number of permissions for an endpoint. For example, if there is an API endpoint only to receive or fetch information, do not add any other unnecessary API level PUT or POST methods to think about the future.
 
