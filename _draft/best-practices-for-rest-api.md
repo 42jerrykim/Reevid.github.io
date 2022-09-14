@@ -1,4 +1,4 @@
-https://medium.com/chegg/best-practices-for-rest-api-df7417ea07e5
+> 본 글은 다음의 글을 번역한 글이다. [Best Practices for rest api](https://medium.com/chegg/best-practices-for-rest-api-df7417ea07e5)
 
 > I am the one who connects the two sides of a software
 > And
