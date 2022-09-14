@@ -1,5 +1,5 @@
 ---
-title: "[REST] "
+title: "[REST] REST API 모범 사례"
 category: REST
 tag:
 - REST
@@ -26,11 +26,13 @@ API는 제공자(Provider)와 클라이언트(Client) 사이의 통신(Communica
 
 # Rest API란 무었인가?
 
+SOAP 기반의 웹 서비스와는 다르게 RESTful API에는 공식적인 표준이 없다. REST는 아키텍처 스타일이고, SOAP는 프로토콜이기 때문이다. REST 자체로는 표준이 아니고, RESTful은 HTTP, URI, JSON, and XML와 같은 표준을 사용하는것을 구현한다.
 
-Unlike SOAP-based web services, there is no “official” standard for RESTful web APIs. This is because REST is an architectural style, while SOAP is a protocol. REST is not a standard in itself, but RESTful implementations make use of standards, such as HTTP, URI, JSON, and XML.
+REST는 performance, scalability, simplicity, modifiability, visibility, portability, and reliability를 향상 시키는데 목표를 두고 있다. client-server architecture, statelessness, cacheability, use of a layered system, support for code on demand, and using a uniform interface와 같은 REST 원칙을 따랏을때 이것들을 달성 할 수 있다. 
 
-The goal of REST is to increase performance, scalability, simplicity, modifiability, visibility, portability, and reliability. This is achieved through following REST principles such as a client-server architecture, statelessness, cacheability, use of a layered system, support for code on demand, and using a uniform interface.
-Best Practices for Rest API
+# Rest API 모범 사례
+
+
 
 I will highlight best practices for both developers and testers while developing and testing Rest API.
 
