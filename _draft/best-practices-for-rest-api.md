@@ -1,13 +1,24 @@
+---
+title: "[REST] "
+category: REST
+tag:
+- REST
+- API
+- Endpoint
+- Music
+- Ticket
+---
+
+API는 모든곳에서 사용한다. 온라인에서 피자를 주문하고 요금을 걸재 하는것 부터, 음악을 듣고, 드라마를 보는것처럼, 세계를 연결된 상태로 유지 시키고 있다.
+
 > 본 글은 다음의 글을 번역한 글이다. [Best Practices for rest api](https://medium.com/chegg/best-practices-for-rest-api-df7417ea07e5)
 
-> I am the one who connects the two sides of a software
-> And
-> I respond back whenever someone HITS me
+> Q. 나는 소프트웨어의 양 끝을 이어주는 역활을 한다. 또한 누군가 나를 건드리면 반응하는 역활도 수행한다.
+> A. 그래, 나는 API Endpoint이다. 
 
-Yes, that’s right, I am an API endpoint!
+최근에는 API는 모든 곳에서 사용한다. 온라인에서 피자를 주문하고 요금을 지불하는것 부더, 티켓을 예매하고, 음악을 듣고, 더 나아가 애플리케이션을 만들때 산업 표준으로 자리잡아가고 있다. 간단히 말해서, 세계를 연결된 상태로 유지 시키고 있다.
 
-These days APIs are everywhere — from ordering pizza online to paying bills, booking tickets, listening to music, and more, they have become an industry standard for building applications. In short, they keep the world connected.
-What is API?
+# API란 무엇인가?
 
 API stands for Application Programming Interface.
 
