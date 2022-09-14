@@ -22,9 +22,10 @@ API는 모든곳에서 사용한다. 온라인에서 피자를 주문하고 요�
 
 API는 Application Programming Interface의 축약어이다.
 
-API는 제공자(Provider)와 클라이언트(Client) 사이의 통신(Communication)을 제공한다. 
-It provides communication between provider and client. It is a type of software interface that offers a service to other pieces of software. A document or standard that describes how to build or use such a connection or interface is called an API specification. A computer system that meets this standard is said to implement or expose an API. The term API may refer either to the specification or to the implementation.
-What is Rest API?
+API는 제공자(Provider)와 클라이언트(Client) 사이의 통신(Communication)을 제공한다. 다른 소프트웨어에 서비스를 제공하는 인터페이스의 한 종류이다. API을 어떻게 만든는지 또는 연결이나 인터페이스를 어떻에 사용하는지 설명하는 문서(Document)나 규격(Standard)을 API 표준(API Specification)이라고 한다. 이러한 규격을 만족하는 컴퓨터 시스템을 API를 구현하거나 노출시킨다고 얘기한다. API 용어는 표준(Specification)이나 구현(Implimentation)을 참조(Refer) 한다고 말 할 수 있다.
+
+# Rest API란 무었인가?
+
 
 Unlike SOAP-based web services, there is no “official” standard for RESTful web APIs. This is because REST is an architectural style, while SOAP is a protocol. REST is not a standard in itself, but RESTful implementations make use of standards, such as HTTP, URI, JSON, and XML.
 
