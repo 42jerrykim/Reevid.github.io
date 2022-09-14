@@ -20,8 +20,9 @@ API는 모든곳에서 사용한다. 온라인에서 피자를 주문하고 요�
 
 # API란 무엇인가?
 
-API stands for Application Programming Interface.
+API는 Application Programming Interface의 축약어이다.
 
+API는 제공자(Provider)와 클라이언트(Client) 사이의 통신(Communication)을 제공한다. 
 It provides communication between provider and client. It is a type of software interface that offers a service to other pieces of software. A document or standard that describes how to build or use such a connection or interface is called an API specification. A computer system that meets this standard is said to implement or expose an API. The term API may refer either to the specification or to the implementation.
 What is Rest API?
 
