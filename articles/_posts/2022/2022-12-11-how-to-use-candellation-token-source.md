@@ -6,9 +6,12 @@ tag:
 - C#
 # header:
 #   teaser: /assets/images/git-story.png
+marp: true
 ---
 
 작업의 가능한 취소를 처리하기 위해 예제에서는 개체에 전달되는 취소 토큰을 생성하는 개체를 TaskFactory 인스턴스화 CancellationTokenSource 합니다. 개체는 TaskFactory 취소 토큰을 특정 계측에 대한 판독값 수집을 담당하는 각 작업에 전달합니다. 
+
+---
 
 ```csharp
 CancellationTokenSource source = new CancellationTokenSource();
@@ -36,6 +39,8 @@ Console.WriteLine("Task Cancel : " + itShouldNotBeTrue.ToString());
 Thread.Sleep(3000);
 ```
 
+---
+
 위의 코드에 대한 결과값은 아래와 같다.
 
 ```
@@ -49,3 +54,5 @@ Task End : True
 ```
 await Task.Delay(1000, token); 
 ```
+
+---
