@@ -2,9 +2,9 @@
 title: "[C#] Source Generators"
 category: 
 - .NET
-- C#
+- CSharp
 tag:
-- C#
+- CSharp
 - .NET
 - Inspect
 - Object

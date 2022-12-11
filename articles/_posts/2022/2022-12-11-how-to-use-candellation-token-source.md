@@ -1,9 +1,9 @@
 ---
 title: "[C#] CancellationTokenSource 클래스 사용법"
 category: 
-- C#
+- CSharp
 tag:
-- C#
+- CSharp
 # header:
 #   teaser: /assets/images/git-story.png
 marp: true

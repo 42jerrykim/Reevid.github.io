@@ -3,7 +3,7 @@ title: "[.NET] .NET 7 Preview 2 소개 - 더 새로운 경험"
 category:
   - .NET
 tag:
-  - C#
+  - CSharp
   - .NET
   - GarvageCollection
   - Programming

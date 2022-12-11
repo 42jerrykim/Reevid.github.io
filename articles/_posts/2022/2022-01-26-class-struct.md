@@ -2,9 +2,9 @@
 title: "[C#] 클래스와 구조체 간의 선택"
 category:
   - .NET
-  - C#
+  - CSharp
 tag:
-  - C#
+  - CSharp
   - Class
   - Struct
   - GarvageCollection

@@ -1,8 +1,8 @@
 ---
 title: "[C/C++] C언어, C++ 소수점 자릿수 조절하기"
-category: C/C++
+category: Cpp
 tag:
- - C/C++
+ - Cpp
  - cout
  - 소수점
  - 정확도

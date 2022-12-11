@@ -3,7 +3,8 @@ title: "[Linux] Custom Signal을 만드는 방법"
 categories:
   - Linux
 tags:
-  - C/C++
+  - Cpp
+  - C
   - Linux
   - Signal
 ---

@@ -1,8 +1,8 @@
 ---
 title: "[C/C++] Lamda를 사용해서 unique_ptr의 자원을 자동으로 해제하기"
-cagegory: C/C++
+cagegory: Cpp
 tag:
-- C/C++
+- Cpp
 - Pointer
 - Smart pointer
 - unique_ptr
