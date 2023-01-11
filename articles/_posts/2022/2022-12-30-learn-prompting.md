@@ -8,7 +8,11 @@ header:
   teaser: /assets/images/undefined/towards_ai-8ba6f0df56a97d31c30cf8711647f549.png
 ---
 
-[Learn Prompting](https://learnprompting.org/)
+AI(Artificial Intelligence)와 소통을 위한 오픈소스 강의
+
+[Learn Prompting](https://learnprompting.org/) 에서 내용을 확인 할 수 있다.
+
+# 목차
 
 * Basics: 프롬프트 엔지니어링(PE) 소개와 간단한 PE 테크닉
 * Advanced Applications: 좀 더 강력하고 발전된 PE 응용
@@ -18,4 +22,3 @@ header:
 * Prompt Injection: PE 해킹
 * Prompting IDEs: 다른 PE 도구들
 * Prompt Tuning: 프롬프트 미세 조정하기
-
