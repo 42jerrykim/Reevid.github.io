@@ -3,7 +3,7 @@ title: "Overview"
 last_modified_at: 2022-03-01
 date: 2022-01-01
 header:
-  teaser: /assets/images/design-pattern-nedir-2021-12-18-143754.jpg
+  teaser: /assets/images/undefined/design-pattern-nedir-2021-12-18-143754.jpg
 ---
 
 소프트웨어 개발을 할 때 사용되는 디자인 패턴이란 과거에 소프트웨어 개발 과정에서 발견된 설계 노하우를 축적하여 그 방법에 이름이 붙여서 이후에 재사용하기 좋은 형태로 특정 규약을 만들어서 정리해둔 것을 말한다. 즉 효율적인 소프트웨어를 만들기 위한 방법론이라고 생각하면 될 듯하다. 특정 한두 개의 패턴을 외우기보다는 다양하게 이해를 하고 알맞은 때와 장소에 맞게 자신의 코드에 녹여내면 될 듯하다.

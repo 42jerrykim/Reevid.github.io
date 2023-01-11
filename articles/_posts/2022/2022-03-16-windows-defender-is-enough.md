@@ -11,7 +11,7 @@ tag:
  - built-in
  - Protection
 header:
-  teaser: /assets/images/Windows-Defender.jpg
+  teaser: /assets/images/undefined/Windows-Defender.jpg
 # last_modified_at: 2022-01-08
 ---
 

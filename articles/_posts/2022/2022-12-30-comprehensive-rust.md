@@ -5,7 +5,7 @@ category:
 tag:
 - Rust
 header:
-  teaser: /assets/images/rust-social-wide.jpg
+  teaser: /assets/images/undefined/rust-social-wide.jpg
 ---
 
 [Welcome to Comprehensive Rust](https://google.github.io/comprehensive-rust/welcome.html#welcome-to-comprehensive-rust-)

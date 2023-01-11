@@ -7,7 +7,7 @@ tag:
  - knowledge
  - Automated testing
 header:
-  teaser: /assets/images/image001.jpg
+  teaser: /assets/images/undefined/image001.jpg
 ---
 
 > 원문 : [Lessons learned from the smartest Software Engineer I’ve met](https://svpino.com/lessons-learned-from-the-smartest-software-engineer-ive-met-35895ac9fe3a)

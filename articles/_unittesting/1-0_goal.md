@@ -2,7 +2,7 @@
 title: "1부 더 큰 그림"
 date: 2022-03-10
 header:
-  teaser:  /assets/images/Khorikov-UT-HI.png
+  teaser:  /assets/images/undefined/Khorikov-UT-HI.png
 ---
 
 1부에서는 단위 테스트의 현황을 빠르게 살펴본다.

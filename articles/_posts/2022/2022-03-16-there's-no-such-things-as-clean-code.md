@@ -5,7 +5,7 @@ tag:
  - Clean Code
  - Programming
 header:
-  teaser: /assets/images/cleancode.jpg
+  teaser: /assets/images/undefined/cleancode.jpg
 last_modified_at: 2022-01-16
 ---
 

@@ -13,7 +13,7 @@ tag:
  - GitHub Page
  - GitHub
 header:
- teaser: /assets/images/2022-02-24-145445.png
+ teaser: /assets/images/2022/2022-02-24-145445.png
 
 ---
 
@@ -21,7 +21,7 @@ header:
 
 # MathJax? Latex?
 
-| ![](/assets/images/2022-02-24-145445.png) |
+| ![](/assets/images/2022/2022-02-24-145445.png) |
 |:--:|
 |MathJax를 사용하여 수식을 보기 좋게 표시 할 수 있다.|
 
@@ -43,7 +43,7 @@ header:
 [MathJax.org](https://www.mathjax.org/)의 [Getting Started](https://www.mathjax.org/#docs) 페이지에서 제공하는 설명대로 다음의 코드를 자신의 웹 페이지에 추가하면 된다.
 
 
-| ![설치 방법](/assets/images/2022-02-24-144643.png) |
+| ![설치 방법](/assets/images/2022/2022-02-24-144643.png) |
 |:--:|
 | *설치 방법* |
 

@@ -11,7 +11,7 @@ tag:
  - SVG
  - Web Font
 header:
- teaser: /assets/images/2022-04-14-150207.png
+ teaser: /assets/images/2022/2022-04-14-150207.png
 ---
 
 Font Awesome 설정에서 Technology에서  SVG로 변경한다.

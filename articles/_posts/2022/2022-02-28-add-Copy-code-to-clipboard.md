@@ -7,12 +7,12 @@ tag:
  - Jekyll
  - Markdown
 header:
- teaser: /assets/images/2022-02-28-150429.png
+ teaser: /assets/images/2022/2022-02-28-150429.png
 ---
 
 아래의 그림처럼 개발 블로그에서는 코드 복사를 위한 Copy 버튼이 있는 것을 종종 확인 할 수 있다. Java Script를 이용하여 콘텐츠의 내용을 바꾸지 않고 Copy 버튼을 삽입 할 수 있는 방법에 대해서 알아본다.
 
-|![코드 카피 버튼](/assets/images/2022-02-28-150429.png)| 
+|![코드 카피 버튼](/assets/images/2022/2022-02-28-150429.png)| 
 |:--:| 
 | 코드 카피 버튼 |
 

@@ -5,7 +5,7 @@ category:
 tag:
 - Prompting
 header:
-  teaser: /assets/images/towards_ai-8ba6f0df56a97d31c30cf8711647f549.png
+  teaser: /assets/images/undefined/towards_ai-8ba6f0df56a97d31c30cf8711647f549.png
 ---
 
 [Learn Prompting](https://learnprompting.org/)
