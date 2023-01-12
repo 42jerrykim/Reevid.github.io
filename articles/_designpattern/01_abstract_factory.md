@@ -12,7 +12,7 @@ header:
 
 아래의 코드에서 WinFactory는 IButton을 반환하는 메소드만 가지고 있기 때문에 구현 클래스(Concrete Classes)가 없다고 말할 수 있다.
 
-```
+```csharp
 interface IButton
 {
     void Paint();
