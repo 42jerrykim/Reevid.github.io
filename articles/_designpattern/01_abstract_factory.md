@@ -6,7 +6,31 @@ header:
   teaser: /assets/images/undefined/design-pattern-nedir-2021-12-18-143754.jpg
 ---
 
-추상 팩토리 패턴은 여러개의 개별적인 팩토리를 캡슐화하는 방법을 제공한다. 각각의 팩토리는 구체적인 구현 클래스 없이 공통적인 특징을 가지고 있어야 한다. 보통의 경우에는 클라이언트 프로그램에서 추상 팩토리에 대한 구현체(Concrete Implementation)를 생성하고 팩토리의 제너릭 인터페이스를 사용하여 구현체를 사용한다. 클라이언트는 결과물(Product)의 제너릭 인터페이스(Generic Interfaces)만 사용하기 때문에 팩토리 내부에서 어떤 객체(Concrete Objects)가 반환되는지 모른다. 팩토리에서 객체를 생성하는 메소드를 인터페이스로 노출 하기 때문에 추상 팩토리 패턴은 객체가 어떻게 구현되어 있는지와 객체를 사용하는 일반적인 방법을 분리 할 수 있다. 그리고 추상 팩토리 패턴은 객체 합성(Object Composition)에 의존한다.
+추상 팩토리 패턴은 여러개의 개별적인 팩토리를 캡슐화하는 방법을 제공한다. 각각의 팩토리는 구현 클래스(Concrete Class) 없이 공통의 기능을 가지고 있어야 한다. 보통의 경우에는 클라이언트 프로그램에서 추상 팩토리에 대한 구현체(Concrete Implementation)를 생성하고 팩토리의 제너릭 인터페이스를 사용하여 구현체를 사용한다. 클라이언트는 결과물(Product)의 제너릭 인터페이스(Generic Interfaces)만 사용하기 때문에 팩토리 내부에서 어떤 객체(Concrete Objects)가 반환되는지 모른다. 팩토리에서 객체를 생성하는 메소드를 인터페이스로 노출하기 때문에 추상 팩토리 패턴은 객체가 어떻게 구현되어 있는지와 객체를 사용하는 일반적인 방법을 분리 할 수 있다. 그리고 추상 팩토리 패턴은 객체 합성(Object Composition)에 의존한다.
+
+# 구체적인 구현클래스가 없는 팩토리 예시
+
+아래의 코드에서 WinFactory는 IButton을 반환하는 메소드만 가지고 있기 때문에 구현 클래스(Concrete Classes)가 없다고 말할 수 있다.
+
+```
+interface IButton
+{
+    void Paint();
+}
+
+interface IGUIFactory
+{
+    IButton CreateButton();
+}
+
+class WinFactory : IGUIFactory
+{
+    public IButton CreateButton()
+    {
+        return new WinButton();
+    }
+}
+```
 
 # 영문 단어 사전
 
@@ -14,6 +38,7 @@ header:
 |:---|:---|
 |Concrete Implementation|구현체|
 |Concrete Objects|구현 객체|
+|Concrete Classes|구현 클래스|
 |Object Composition|객체 합성 (Composition 의 경우 구성으로 번역할지, 합성으로 번역할지 애매하다.)|
 
 # 참고
