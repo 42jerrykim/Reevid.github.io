@@ -10,5 +10,5 @@ header:
 
 # 참고
 
-*[https://en.wikipedia.org/wiki/Abstract_factory_pattern](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
-*[객체지향 프로그래밍(OOP) – 2 : Composition and Inheritance](https://actruce.com/copy-object-oriented-programming-2/)
+* [https://en.wikipedia.org/wiki/Abstract_factory_pattern](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
+* [객체지향 프로그래밍(OOP) – 2 : Composition and Inheritance](https://actruce.com/copy-object-oriented-programming-2/)
