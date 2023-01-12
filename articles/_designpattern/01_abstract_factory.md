@@ -32,7 +32,7 @@ class WinFactory : IGUIFactory
 }
 ```
 
-# 영문 단어 사전
+# 영문 단어 번역 사전
 
 |영문|한글|
 |:---|:---|
