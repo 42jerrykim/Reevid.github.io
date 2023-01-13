@@ -9,7 +9,7 @@ tag:
 - Opensource
 - Lecture
 header:
-  teaser: /assets/images/2023/2023-01-11-185945.png
+  teaser: /assets/images/2023/2023-01-11-190639.png
 ---
 
 온라인에서 Python 학습할 수 있는 도구를 소개한다. 기본적인 조건문, 반복문, 자료 구조를 연습해 볼 수 있다.
