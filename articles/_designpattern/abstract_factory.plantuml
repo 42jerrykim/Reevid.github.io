@@ -1,7 +1,20 @@
 @startuml
-interface AbstractFactory
+interface AbstractFactory {
++AbstractProductA CreateProductA()
++AbstractProductB CreateProductB()
+}
 interface AbstractProductA
 interface AbstractProductB
+
+class ConcreteFactory1 {
++AbstractProductA CreateProductA()
++AbstractProductB CreateProductB()
+}
+
+class ConcreteFactory2 {
++AbstractProductA CreateProductA()
++AbstractProductB CreateProductB()
+}
 
 Client --> AbstractFactory: <<import>>
 Client --> AbstractProductA: <<import>>
