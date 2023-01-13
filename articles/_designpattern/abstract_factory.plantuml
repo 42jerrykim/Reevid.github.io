@@ -6,7 +6,6 @@ interface AbstractFactory {
 +AbstractProductB CreateProductB()
 }
 
-
 interface AbstractProductA
 interface AbstractProductB
 
@@ -30,12 +29,18 @@ class Client {
 +Client(f:AbstractFactory)
 }
 
-Client --> AbstractFactory: <<import>>
-Client --> AbstractProductA: <<import>>
-Client --> AbstractProductB: <<import>>
+
+Client -down-> AbstractFactory: <<import>>
+Client -down-> AbstractProductA: <<import>>
+Client -down-> AbstractProductB: <<import>>
+
+AbstractProductA -[hidden]right- AbstractProductB
+AbstractProductA -[hidden]down- ConcreteFactory1  
+AbstractProductB -[hidden]down- ConcreteFactory2
 
 ConcreteFactory1 .up.|> AbstractFactory
 ConcreteFactory2 .up.|> AbstractFactory
+ConcreteFactory1 -[hidden]right- ConcreteFactory2
 
 ProductA1 .up.|> AbstractProductA
 ProductA2 .up.|> AbstractProductA
@@ -49,6 +54,7 @@ ConcreteFactory1  ..> ProductB1 : <<instatiate>>
 ConcreteFactory2  ..> ProductA2 : <<instatiate>>
 ConcreteFactory2  ..> ProductB2 : <<instatiate>>
 
+
 hide AbstractFactory field
 hide AbstractProductA member
 hide AbstractProductB member
@@ -56,5 +62,4 @@ hide ProductA1 member
 hide ProductA2 member
 hide ProductB1 member
 hide ProductB2 member
-
 @enduml
