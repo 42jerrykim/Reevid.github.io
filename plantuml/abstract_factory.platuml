@@ -1,0 +1,24 @@
+@startuml
+interface AbstractFactory
+interface AbstractProductA
+interface AbstractProductB
+
+Client --> AbstractFactory: <<import>>
+Client --> AbstractProductA: <<import>>
+Client --> AbstractProductB: <<import>>
+
+ConcreteFactory1 .up.|> AbstractFactory
+ConcreteFactory2 .up.|> AbstractFactory
+
+ProductA1 .up.|> AbstractProductA
+ProductA2 .up.|> AbstractProductA
+
+ProductB1 .up.|> AbstractProductB
+ProductB2 .up.|> AbstractProductB
+
+ConcreteFactory1  ..> ProductA1 : <<instatiate>>
+ConcreteFactory1  ..> ProductB1 : <<instatiate>>
+
+ConcreteFactory2  ..> ProductA2 : <<instatiate>>
+ConcreteFactory2  ..> ProductB2 : <<instatiate>>
+@enduml
