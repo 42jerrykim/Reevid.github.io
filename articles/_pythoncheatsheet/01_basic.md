@@ -1,5 +1,5 @@
 ---
-title: "Basic"
+title: "Basic - 연산자, 변수, 출력, 형변환"
 last_modified_at: 2023-01-17
 date: 2022-01-17
 header:
