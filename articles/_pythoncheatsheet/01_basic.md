@@ -12,7 +12,7 @@ header:
 > 
 > 파이썬은 배우기 쉬운 언어이면서 강력한 언어이다. 파이썬은 우아한 문법과 다이나믹 파입을 지원한다. 이것들은 자연스럽게 어우러져 스크립팅과 빠른 어플리케이션 개발하는데 있어서 이상적인 언어로 만든다.
 
-# 수학 함수
+# 수학 연산자
 
 우선 순위가 높은 순서로 나열 하였다.
 
@@ -153,107 +153,110 @@ header:
     ```
 # print() 함수
 
-The print() function writes the value of the argument(s) it is given. […] it handles multiple arguments, floating point-quantities, and strings. Strings are printed without quotes, and a space is inserted between items, so you can format things nicely:
+`print()`함수는 파라미터로 들어온 변수를 출력한다. 다중 변수를 처리 할 수 있으며, 실수와 문자열을 포함한다. 문자열은 쌍따옴표 없지 출력하며, 파라미터 사이에 띄어쓰기를 포함하여 출력하기 때문에 출력 형식을 조절하기 편하다.
 
-    ```python
-    >>> print('Hello world!')
-    # Hello world!
+```python
+>>> print('Hello world!')
+# Hello world!
 
-    >>> a = 1
-    >>> print('Hello world!', a)
-    # Hello world! 1
-    ```
+>>> a = 1
+>>> print('Hello world!', a)
+# Hello world! 1
+```
 
-## The end keyword
+## end 키워드
 
-The keyword argument end can be used to avoid the newline after the output, or end the output with a different string:
+end 키워드는 출력된 결과물에서 줄바꿈을 다른 문자로 변경 할 수 있다.
 
-    ```python
-    phrase = ['printed', 'with', 'a', 'dash', 'in', 'between']
-    >>> for word in phrase:
-    ...     print(word, end='-')
-    ...
-    # printed-with-a-dash-in-between-
-    ```
+```python
+phrase = ['printed', 'with', 'a', 'dash', 'in', 'between']
+>>> for word in phrase:
+...     print(word, end='-')
+...
+# printed-with-a-dash-in-between-
+```
 
-## The sep keyword
+## sep 키워드
 
-The keyword sep specify how to separate the objects, if there is more than one:
+sep 키워드는 구분자를 바꿀수 있다.
 
-    ```python
-    print('cats', 'dogs', 'mice', sep=',')
-    # cats,dogs,mice
-    ```
-# The input() Function
+```python
+print('cats', 'dogs', 'mice', sep=',')
+# cats,dogs,mice
+```
 
-This function takes the input from the user and converts it into a string:
-    ```python
-    >>> print('What is your name?')   # ask for their name
-    >>> my_name = input()
-    >>> print('Hi, {}'.format(my_name))
-    # What is your name?
-    # Martha
-    # Hi, Martha
-    ```
-input() can also set a default message without using print():
+# input() 함수
 
-    ```python
-    >>> my_name = input('What is your name? ')  # default message
-    >>> print('Hi, {}'.format(my_name))
-    # What is your name? Martha
-    # Hi, Martha
-    ```
+input() 함수는 사용자의 입력을 문자열로 받아드린다.
 
-# The len() Function
+```python
+>>> print('What is your name?')   # ask for their name
+>>> my_name = input()
+>>> print('Hi, {}'.format(my_name))
+# What is your name?
+# Martha
+# Hi, Martha
+```
 
-Evaluates to the integer value of the number of characters in a string, list, dictionary, etc.:
+input() 함수는 print() 함수를 사용하지 않고 기본 메시지를 출력 할 수 있다.
 
-    ```python
-    >>> len('hello')
-    # 5
+```python
+>>> my_name = input('What is your name? ')  # default message
+>>> print('Hi, {}'.format(my_name))
+# What is your name? Martha
+# Hi, Martha
+```
 
-    >>> len(['cat', 3, 'dog'])
-    # 3
-    ```
+# len() 함수
 
-> Test of emptiness : Test of emptiness of strings, lists, dictionaries, etc., should not use len, but prefer direct boolean evaluation.
+문자열, 리스트(List), 사전(Dictionary)등 변수의 길이를 반환한다.
 
-Test of emptiness example:
+```python
+>>> len('hello')
+# 5
 
-    ```python
-    >>> a = [1, 2, 3]
+>>> len(['cat', 3, 'dog'])
+# 3
+```
 
-    # bad
-    >>> if len(a) > 0:  # evaluates to True
-    ...     print("the list is not empty!")
-    ...
-    # the list is not empty!
+> 비어 있음을 테스트 할때는 len()을 사용하지 않고 변수를 바로 사용하는것이 좋다.
 
-    # good
-    >>> if a: # evaluates to True
-    ...     print("the list is not empty!")
-    ...
-    # the list is not empty!
-    ```
+아래의 코드는 비어 있음을 테스트 하는 예시이다.
 
-# The str(), int(), and float() Functions
+```python
+>>> a = [1, 2, 3]
 
-These functions allow you to change the type of variable. For example, you can transform from an integer or float to a string:
+# bad
+>>> if len(a) > 0:  # evaluates to True
+...     print("the list is not empty!")
+...
+# the list is not empty!
 
-    ```python
-    >>> str(29)
-    # '29'
+# good
+>>> if a: # evaluates to True
+...     print("the list is not empty!")
+...
+# the list is not empty!
+```
 
-    >>> str(-3.14)
-    # '-3.14'
-    ```
+# str(), int(), and float() 함수
 
-Or from a string to an integer or float:
+이 함수들은 변수의 타입을 바꾸는데 사용한다. 예를 들어 실수나 정수를 문자열로 바꿀때 사용한다.
 
-    ```python
-    >>> int('11')
-    # 11
+```python
+>>> str(29)
+# '29'
 
-    >>> float('3.14')
-    # 3.14
-    ```
+>>> str(-3.14)
+# '-3.14'
+```
+
+또는 문자열을 실수나 정수로 바꿀수 있다.
+
+```python
+>>> int('11')
+# 11
+
+>>> float('3.14')
+# 3.14
+```
