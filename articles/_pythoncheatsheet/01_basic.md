@@ -116,7 +116,7 @@ header:
     >>> # good
     >>> my_var_2 = 'Hello'
     ```
-    
+
 3. 숫자로 시작 할 수 없다.
     ```python
     >>> # this wont work
@@ -129,11 +129,13 @@ header:
     ```python
     # This is a comment
     ```
+
 * 다중라인 주석
     ```python
     # This is a
     # multiline comment
     ```
+    
 * 코드와 함께 사용하기
     ```python
     a = 1  # initialization
@@ -141,7 +143,6 @@ header:
     > 주석 앞에 2개의 띄어쓰기가 있어야 한다. 
 
 * 함수 주석
-
     ```python
     def foo():
         """
