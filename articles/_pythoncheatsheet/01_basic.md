@@ -26,7 +26,7 @@ header:
 |-|Subtraction|5 - 2 = 3|
 |+|Addition|2 + 2 = 4|
 
-## 수학 함수 예시
+수학 함수 예시
 
 ```python
 >>> 2 + 3 * 6
@@ -58,7 +58,7 @@ header:
 |var /= 1|var = var / 1|
 |var %= 1|var = var % 1|
 
-## 예시
+예시
 
 ```python
 >>> greeting = 'Hello'
@@ -87,21 +87,19 @@ header:
 
 # 결합(Concatenation)과 복사
 
-## 스트링 결합
-
-```python
->>> 'Alice' 'Bob'
-# 'AliceBob'
-```
-
-## 문자열 복사
-
-```python
->>> 'Alice' * 5
-# 'AliceAliceAliceAliceAlice'
-```
+* 문자열 결합
+    ```python
+    >>> 'Alice' 'Bob'
+    # 'AliceBob'
+    ```
+* 문자열 복사
+    ```python
+    >>> 'Alice' * 5
+    # 'AliceAliceAliceAliceAlice'
+    ```
 
 # 변수
+
 1. 한 단어로 변수를 지정할 수 있다.
     ```python
     >>> # bad
@@ -131,3 +129,123 @@ header:
     >>> # _spam should not be used again in the code
     >>> _spam = 'Hello'
     ```
+
+# 주석
+
+* 내장 주석
+    ```python
+    # This is a comment
+    ```
+* 다중라인 주석
+    ```python
+    # This is a
+    # multiline comment
+    ```
+* 코드와 함께 사용하기
+    ```python
+    a = 1  # initialization
+    ```
+    > 주석 앞에 2개의 띄어쓰기가 있어야 한다. 
+
+* 함수 주석
+    ```python
+    def foo():
+        """
+        This is a function docstring
+        You can also use:
+        ''' Function Docstring '''
+        """
+    ```
+# print() 함수
+
+The print() function writes the value of the argument(s) it is given. […] it handles multiple arguments, floating point-quantities, and strings. Strings are printed without quotes, and a space is inserted between items, so you can format things nicely:
+
+>>> print('Hello world!')
+# Hello world!
+
+>>> a = 1
+>>> print('Hello world!', a)
+# Hello world! 1
+
+The end keyword
+
+The keyword argument end can be used to avoid the newline after the output, or end the output with a different string:
+
+phrase = ['printed', 'with', 'a', 'dash', 'in', 'between']
+>>> for word in phrase:
+...     print(word, end='-')
+...
+# printed-with-a-dash-in-between-
+
+The sep keyword
+
+The keyword sep specify how to separate the objects, if there is more than one:
+
+print('cats', 'dogs', 'mice', sep=',')
+# cats,dogs,mice
+
+The input() Function
+
+This function takes the input from the user and converts it into a string:
+
+>>> print('What is your name?')   # ask for their name
+>>> my_name = input()
+>>> print('Hi, {}'.format(my_name))
+# What is your name?
+# Martha
+# Hi, Martha
+
+input() can also set a default message without using print():
+
+>>> my_name = input('What is your name? ')  # default message
+>>> print('Hi, {}'.format(my_name))
+# What is your name? Martha
+# Hi, Martha
+
+The len() Function
+
+Evaluates to the integer value of the number of characters in a string, list, dictionary, etc.:
+
+>>> len('hello')
+# 5
+
+>>> len(['cat', 3, 'dog'])
+# 3
+
+Test of emptiness
+
+Test of emptiness of strings, lists, dictionaries, etc., should not use len, but prefer direct boolean evaluation.
+
+Test of emptiness example:
+
+>>> a = [1, 2, 3]
+
+# bad
+>>> if len(a) > 0:  # evaluates to True
+...     print("the list is not empty!")
+...
+# the list is not empty!
+
+# good
+>>> if a: # evaluates to True
+...     print("the list is not empty!")
+...
+# the list is not empty!
+
+The str(), int(), and float() Functions
+
+These functions allow you to change the type of variable. For example, you can transform from an integer or float to a string:
+
+>>> str(29)
+# '29'
+
+>>> str(-3.14)
+# '-3.14'
+
+Or from a string to an integer or float:
+
+>>> int('11')
+# 11
+
+>>> float('3.14')
+# 3.14
