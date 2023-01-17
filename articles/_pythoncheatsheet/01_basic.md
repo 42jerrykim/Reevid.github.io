@@ -26,8 +26,6 @@ header:
 |-|Subtraction|5 - 2 = 3|
 |+|Addition|2 + 2 = 4|
 
-수학 함수 예시
-
 ```python
 >>> 2 + 3 * 6
 # 20
@@ -57,8 +55,6 @@ header:
 |var *= 1|var = var * 1|
 |var /= 1|var = var / 1|
 |var %= 1|var = var % 1|
-
-예시
 
 ```python
 >>> greeting = 'Hello'
@@ -108,7 +104,8 @@ header:
     >>> # good
     >>> var = 'Hello'
     ```
-1. 문자, 숫자, `_`만 사용 할 수 있다.
+
+2. 문자, 숫자, `_`만 사용 할 수 있다.
     ```python
     >>> # bad
     >>> %$@variable = 'Hello'
@@ -119,7 +116,8 @@ header:
     >>> # good
     >>> my_var_2 = 'Hello'
     ```
-1. 숫자로 시작 할 수 없다.
+    
+3. 숫자로 시작 할 수 없다.
     ```python
     >>> # this wont work
     >>> 23_var = 'hello'
@@ -143,6 +141,7 @@ header:
     > 주석 앞에 2개의 띄어쓰기가 있어야 한다. 
 
 * 함수 주석
+
     ```python
     def foo():
         """
@@ -151,6 +150,7 @@ header:
         ''' Function Docstring '''
         """
     ```
+
 # print() 함수
 
 `print()`함수는 파라미터로 들어온 변수를 출력한다. 다중 변수를 처리 할 수 있으며, 실수와 문자열을 포함한다. 문자열은 쌍따옴표 없지 출력하며, 파라미터 사이에 띄어쓰기를 포함하여 출력하기 때문에 출력 형식을 조절하기 편하다.
@@ -166,7 +166,7 @@ header:
 
 ## end 키워드
 
-end 키워드는 출력된 결과물에서 줄바꿈을 다른 문자로 변경 할 수 있다.
+`end` 키워드는 출력된 결과물에서 줄바꿈을 다른 문자로 변경 할 수 있다.
 
 ```python
 phrase = ['printed', 'with', 'a', 'dash', 'in', 'between']
@@ -178,7 +178,7 @@ phrase = ['printed', 'with', 'a', 'dash', 'in', 'between']
 
 ## sep 키워드
 
-sep 키워드는 구분자를 바꿀수 있다.
+`sep` 키워드는 구분자를 바꿀수 있다.
 
 ```python
 print('cats', 'dogs', 'mice', sep=',')
@@ -187,7 +187,7 @@ print('cats', 'dogs', 'mice', sep=',')
 
 # input() 함수
 
-input() 함수는 사용자의 입력을 문자열로 받아드린다.
+`input()` 함수는 사용자의 입력을 문자열로 받아드린다.
 
 ```python
 >>> print('What is your name?')   # ask for their name
@@ -198,7 +198,7 @@ input() 함수는 사용자의 입력을 문자열로 받아드린다.
 # Hi, Martha
 ```
 
-input() 함수는 print() 함수를 사용하지 않고 기본 메시지를 출력 할 수 있다.
+`input()` 함수는 `print()` 함수를 사용하지 않고 기본 메시지를 출력 할 수 있다.
 
 ```python
 >>> my_name = input('What is your name? ')  # default message
