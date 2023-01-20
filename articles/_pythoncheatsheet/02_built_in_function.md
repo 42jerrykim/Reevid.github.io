@@ -17,7 +17,7 @@ header:
 | [abs(x)](#absx) | 숫자의 절대값을 반환한다. |
 | [all(iterable)](#alliterable) | 반복 가능한 모든 요소가 참인 경우에 참을 반환한다. |
 | [any(iterable)](#anyiterable) | 반복 가능한 요소들 중에서 참인 경우가 있으면 참을 반환한다. |
-| [awaitable anext(async_iterator), awaitable anext(async_iterator, default)](#awaitable-anextasync_iterator-awaitable-anextasync_iterator-default) | awaited 중일때, 주어진 비동기 이터레이터로 부터 다음 아이템을 반환한다. |
+| [awaitable anext(async_iterator)<br>awaitable anext(async_iterator, default)](#awaitable-anextasync_iterator-awaitable-anextasync_iterator-default) | awaited 중일때, 주어진 비동기 이터레이터로 부터 다음 아이템을 반환한다. |
 
 
 # A
