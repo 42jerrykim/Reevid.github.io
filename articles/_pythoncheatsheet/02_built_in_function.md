@@ -46,7 +46,7 @@ def all(iterable):
     return True
 ```
 
-## awaitable anext(async_iterator), awaitable anext(async_iterator, default)
+## awaitable anext(async_iterator)<br>awaitable anext(async_iterator, default)
 
 awaited 중일때, 주어진 비동기 이터레이터로 부터 다음 아이템을 반환한다. 또는 이터레이터를 다 사용한 경우에는 기본값이 있으면 기본값이 반환된다. `anext()`는 `next()` 내장 함수의 비동기 변형이며, 유사하게 동작한다.
 
