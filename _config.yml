@@ -271,6 +271,20 @@ defaults:
       comments: true
       read_time: true
       show_date: true
+  # _pythoncheatsheet
+  - scope:
+      path: ""
+      type: pythoncheatsheet
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true  
+      toc_sticky: true
+      toc_icon: "align-left"
+      comments: true
+      read_time: true
+      show_date: true
 
 category_archive:
   type: liquid
@@ -321,6 +335,11 @@ collections:
     Title: "백준"
     output: true
     permalink: /collections/:collection/:path/
+  pythoncheatsheet:
+    Title: "Python Cheat Sheet"
+    output: true
+    permalink: /collections/:collection/:path/
+
 
 comments:
   provider: "utterances"

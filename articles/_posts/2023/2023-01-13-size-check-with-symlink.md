@@ -5,6 +5,12 @@ category:
 tag:
 - Linux
 - Symlink
+- du
+- df
+- File
+- Size
+- Direstory
+- Link
 # header:
 #   teaser: /assets/images/2023/cover.jpg
 ---
